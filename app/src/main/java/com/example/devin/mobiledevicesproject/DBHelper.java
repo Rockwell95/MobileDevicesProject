@@ -26,8 +26,8 @@ public class DBHelper extends SQLiteOpenHelper {
     public void onCreate (SQLiteDatabase db) {
         String createTable = "CREATE TABLE " + TABLE_NAME + "(" +
                             KEY_USER_ID + " INTEGER PRIMARY KEY " +
-                            KEY_USER_NAME + " TEXT NOT NULL " +
-                            KEY_USER_EMAIL + " TEXT NOT NULL " +
+                            KEY_USER_NAME + " TEXT NOT NULL UNIQUE " +
+                            KEY_USER_EMAIL + " TEXT NOT NULL UNIQUE " +
                             KEY_USER_BIRTHDATE + " TEXT NOT NULL " +
                             ")";
         db.execSQL(createTable);
@@ -44,5 +44,23 @@ public class DBHelper extends SQLiteOpenHelper {
             onCreate(db);
             DATABASE_VERSION = newVersion;
         }
+    }
+
+    /*
+     * Takes a user and attempts to add its attributes to the database. If name or email is
+     * not unique, returns false. Otherwise, returns true.
+     */
+    public boolean addUser (User user) {
+        boolean inserted = true; // assume information is unique and valid
+        // extract data from user
+        String name = user.getName();
+        String email = user.getEmail();
+        String birthdate = user.getBirthdate();
+
+        // TODO: perform error checking on values
+
+        // TODO: attempt to insert user into database
+
+        return inserted;
     }
 }
