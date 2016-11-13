@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">MobileDevicesProject</string>
+
+    <!-- General strings -->
+    <string name="btnCancel">Cancel</string>
+    <string name="btnConfirm">Confirm</string>
+
+    <!-- SignupActivity strings -->
+    <string name="editUserFirstName">Enter first name</string>
+    <string name="editUserLastName">Enter last name</string>
+    <string name="editUserEmail">Enter e-mail (required)</string>
+    <string name="editUserPassword">Enter password (required)</string>
+    <string name="editUserPasswordConfirm">Confirm password (required)</string>
 </resources>

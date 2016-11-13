@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="10"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:padding="10dp">
+
+            <EditText android:id="@+id/editUserFirstName"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:hint="@string/editUserFirstName"
+                android:maxLines="1"/>
+
+            <EditText android:id="@+id/editUserLastName"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editUserFirstName"
+                android:layout_marginTop="@dimen/editBetween"
+                android:hint="@string/editUserLastName"
+                android:maxLines="1"/>
+
+            <EditText android:id="@+id/editUserEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editUserLastName"
+                android:layout_marginTop="@dimen/editBetween"
+                android:hint="@string/editUserEmail"
+                android:maxLines="1"/>
+
+            <EditText android:id="@+id/editUserPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editUserEmail"
+                android:layout_marginTop="@dimen/editBetween"
+                android:hint="@string/editUserPassword"
+                android:inputType="textPassword"
+                android:maxLines="1"/>
+
+            <EditText android:id="@+id/editUserPasswordConfirm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editUserPassword"
+                android:layout_marginTop="@dimen/editBetween"
+                android:hint="@string/editUserPasswordConfirm"
+                android:inputType="textPassword"
+                android:maxLines="1"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="8">
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="9">
+
+        <Button android:id="@+id/btnLoginCancel"
+            android:layout_width="@dimen/btnMedSize"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="@dimen/btnMargin"
+            android:text="@string/btnCancel"/>
+
+        <Button android:id="@+id/btnLoginConfirm"
+            android:layout_width="@dimen/btnMedSize"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/btnMargin"
+            android:text="@string/btnCancel"/>
+    </RelativeLayout>
+</LinearLayout>
