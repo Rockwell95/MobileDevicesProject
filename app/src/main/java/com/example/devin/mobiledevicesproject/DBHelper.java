@@ -5,6 +5,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.database.sqlite.SQLiteStatement;
 import android.util.Log;
 
 public class DBHelper extends SQLiteOpenHelper {
@@ -92,13 +93,12 @@ public class DBHelper extends SQLiteOpenHelper {
         RegexHelper rh = new RegexHelper(); // new instance of RegexHelper
 
         // perform basic input validation
-        if (!email.matches(rh.email)) {
+        if (!email.matches(rh.email))
             return CODE_INVALID_EMAIL;
-        } else if (!password.matches(rh.password)) {
+        else if (!password.matches(rh.password))
             return CODE_INVALID_PASSWORD;
-        } else if (!birthdate.matches(rh.birthdate)) {
+        else if (!birthdate.matches(rh.birthdate))
             return CODE_INVALID_BIRTHDATE;
-        }
 
         // query database for input email
         String queryEmail = "SELECT " + KEY_USER_EMAIL +
@@ -137,8 +137,39 @@ public class DBHelper extends SQLiteOpenHelper {
     }
 
     // TODO: attempt to login with supplied information and return user data if it is correct
-    public User login (String email, String password) {
+    public User login (String userEmail, String userPassword) {
         User user = null;
+        SQLiteDatabase db = this.getReadableDatabase();
+        RegexHelper rh = new RegexHelper(); // new instance of RegexHelper
+
+        // check if email and password are a valid format
+        if (!userEmail.matches(rh.email) || !userPassword.matches(rh.password))
+            return user;
+
+        // perform query for input email and password
+        Cursor results = db.query(
+                TABLE_NAME,
+                new String[]{KEY_USER_ID, KEY_USER_FIRSTNAME, KEY_USER_LASTNAME, KEY_USER_EMAIL, KEY_USER_PASSWORD, KEY_USER_BIRTHDATE},
+                KEY_USER_EMAIL + " = ? AND " + KEY_USER_PASSWORD + " = ?",
+                new String[]{userEmail, userPassword},
+                null,
+                null,
+                null);
+
+        if (results.moveToFirst() && results.getCount() > 0) {
+            String id = results.getString(0);
+            String firstName = results.getString(1);
+            String lastName = results.getString(2);
+            String email = results.getString(3);
+            String password = results.getString(4);
+            String birthdate = results.getString(5);
+
+            Log.d("DBHelper", id + " " + firstName + " " + lastName + " " + email + " " + password + " " + birthdate);
+
+            user = new User(firstName, lastName, email, password, birthdate);
+        } else {
+            Log.d("DBHelper", userEmail + " " + userPassword);
+        }
 
         return user;
     }

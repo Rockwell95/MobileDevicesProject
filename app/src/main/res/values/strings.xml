@@ -30,4 +30,6 @@
 
     <string name="btnLogin">Login</string>
     <string name="btnSignup">Signup</string>
+
+    <string name="errorEmailPasswordInvalid">Email or password invalid</string>
 </resources>

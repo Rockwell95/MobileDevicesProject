@@ -45,7 +45,15 @@ public class LoginActivity extends AppCompatActivity {
             return;
 
         User user = dbHelper.login(email, password);
-        // TODOL more login stuff
+        // could not login, show error
+        if (user == null) {
+            editLoginPassword.setError(getString(R.string.errorEmailPasswordInvalid));
+            return;
+        }
+
+        Intent intent = new Intent(this, MainActivity.class);
+        setResult(RESULT_OK, intent);
+        finish();
     }
 
     protected void signup (View view) {
