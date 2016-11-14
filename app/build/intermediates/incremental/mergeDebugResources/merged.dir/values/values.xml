@@ -277,10 +277,14 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="btnMargin">80dp</dimen>
-    <dimen name="btnMedSize">80dp</dimen>
+    <dimen name="btnMedSize">90dp</dimen>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
     <dimen name="editBetween">10dp</dimen>
+    <dimen name="editUserBirthdateDay">90dp</dimen>
+    <dimen name="editUserBirthdateMonth">90dp</dimen>
+    <dimen name="editUserBirthdateYear">160dp</dimen>
+    <dimen name="editUserName">180dp</dimen>
     <item format="float" name="highlight_alpha_material_colored" type="dimen">0.26</item>
     <item format="float" name="highlight_alpha_material_dark" type="dimen">0.20</item>
     <item format="float" name="highlight_alpha_material_light" type="dimen">0.12</item>
@@ -303,6 +307,7 @@
     <dimen name="notification_subtext_size">13sp</dimen>
     <dimen name="notification_top_pad">10dp</dimen>
     <dimen name="notification_top_pad_large_text">5dp</dimen>
+    <dimen name="signupActivityPadding">16dp</dimen>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
     <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
     <item name="action_bar_activity_content" type="id"/>
@@ -352,11 +357,20 @@
     <string name="app_name">MobileDevicesProject</string>
     <string name="btnCancel">Cancel</string>
     <string name="btnConfirm">Confirm</string>
+    <string name="editUserBirthdateDay">DD</string>
+    <string name="editUserBirthdateMonth">MM</string>
+    <string name="editUserBirthdateYear">YYYY</string>
     <string name="editUserEmail">Enter e-mail (required)</string>
     <string name="editUserFirstName">Enter first name</string>
     <string name="editUserLastName">Enter last name</string>
     <string name="editUserPassword">Enter password (required)</string>
     <string name="editUserPasswordConfirm">Confirm password (required)</string>
+    <string name="errorBirthdateDay">Must contain only digits</string>
+    <string name="errorBirthdateMonth">Must contain only digits</string>
+    <string name="errorBirthdateYear">Invalid birth year</string>
+    <string name="errorEmail">Email invalid</string>
+    <string name="errorMatchingPassword">Password does not match</string>
+    <string name="errorPasswordInvalid">Password must be atlease 8 characters long and must contain atleast 1 lowercase alphanumeric character, 1 uppercase alphanumeric character, and 1 number</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

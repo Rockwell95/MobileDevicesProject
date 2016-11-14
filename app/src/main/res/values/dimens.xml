@@ -3,8 +3,18 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
 
+    <!-- General Dimensions -->
+
     <!-- SignupActivity dimensions -->
+    <dimen name="signupActivityPadding">16dp</dimen>
+
+    <dimen name="editUserName">180dp</dimen>
+
     <dimen name="editBetween">10dp</dimen>
-    <dimen name="btnMedSize">80dp</dimen>
+    <dimen name="btnMedSize">90dp</dimen>
     <dimen name="btnMargin">80dp</dimen>
+
+    <dimen name="editUserBirthdateDay">90dp</dimen>
+    <dimen name="editUserBirthdateMonth">90dp</dimen>
+    <dimen name="editUserBirthdateYear">160dp</dimen>
 </resources>

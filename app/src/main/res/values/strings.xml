@@ -6,9 +6,20 @@
     <string name="btnConfirm">Confirm</string>
 
     <!-- SignupActivity strings -->
+        <!-- EditText hints -->
     <string name="editUserFirstName">Enter first name</string>
     <string name="editUserLastName">Enter last name</string>
     <string name="editUserEmail">Enter e-mail (required)</string>
     <string name="editUserPassword">Enter password (required)</string>
     <string name="editUserPasswordConfirm">Confirm password (required)</string>
+    <string name="editUserBirthdateDay">DD</string>
+    <string name="editUserBirthdateMonth">MM</string>
+    <string name="editUserBirthdateYear">YYYY</string>
+        <!-- Error messages -->
+    <string name="errorEmail">Email invalid</string>
+    <string name="errorPasswordInvalid">Password must be atlease 8 characters long and must contain atleast 1 lowercase alphanumeric character, 1 uppercase alphanumeric character, and 1 number</string>
+    <string name="errorMatchingPassword">Password does not match</string>
+    <string name="errorBirthdateDay">Must contain only digits</string>
+    <string name="errorBirthdateMonth">Must contain only digits</string>
+    <string name="errorBirthdateYear">Invalid birth year</string>
 </resources>
