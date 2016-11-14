@@ -136,6 +136,7 @@ public class DBHelper extends SQLiteOpenHelper {
         return CODE_SUCCESS;
     }
 
+    // TODO: attempt to login with supplied information and return user data if it is correct
     public User login (String email, String password) {
         User user = null;
 

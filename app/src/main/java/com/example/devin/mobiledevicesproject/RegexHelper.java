@@ -1,7 +1,7 @@
 package com.example.devin.mobiledevicesproject;
 
 public class RegexHelper {
-    public final String email = "^\\w+@\\w+\\.\\w+$";
+    public final String email = "^\\w+@\\w+\\.\\w+$"; // TODO: make email regex better
     public final String password = "^(?=.*[a-z]+)(?=.*[A-Z])(?=.*\\d).{8,}$";
     public final String birthdateDay = "^[\\d]{1,2}$";
     public final String birthdateMonth = "^[\\d]{1,2}$";
