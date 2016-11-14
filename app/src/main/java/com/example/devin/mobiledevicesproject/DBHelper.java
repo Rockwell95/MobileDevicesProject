@@ -89,16 +89,14 @@ public class DBHelper extends SQLiteOpenHelper {
         String birthdate = user.getBirthdate();
 
         // TODO: perform error checking on values
-        String emailRegex = "^\\w+@\\w+\\.\\w+$";
-        String passwordRegex = "^(?=.*[a-z]+)(?=.*[A-Z])(?=.*\\d).{8,}$";
-        String birthdateRegex = "^[\\d]{1,2}\\/[\\d]{1,2}\\/[\\d]{4}$";
+        RegexHelper rh = new RegexHelper(); // new instance of RegexHelper
 
         // perform basic input validation
-        if (!email.matches(emailRegex)) {
+        if (!email.matches(rh.email)) {
             return CODE_INVALID_EMAIL;
-        } else if (!password.matches(passwordRegex)) {
+        } else if (!password.matches(rh.password)) {
             return CODE_INVALID_PASSWORD;
-        } else if (!birthdate.matches(birthdateRegex)) {
+        } else if (!birthdate.matches(rh.birthdate)) {
             return CODE_INVALID_BIRTHDATE;
         }
 
@@ -122,9 +120,9 @@ public class DBHelper extends SQLiteOpenHelper {
 
         // TODO: compare birthdate year against current year somehow
 
-        // TODO: attempt to insert user into database
         ContentValues values = new ContentValues();
 
+        // add all values to a new row
         values.put(KEY_USER_ID, getNextID());
         values.put(KEY_USER_FIRSTNAME, firstName);
         values.put(KEY_USER_LASTNAME, lastName);
@@ -132,9 +130,15 @@ public class DBHelper extends SQLiteOpenHelper {
         values.put(KEY_USER_PASSWORD, password);
         values.put(KEY_USER_BIRTHDATE, birthdate);
 
-        db.insert(TABLE_NAME, null, values);
+        db.insert(TABLE_NAME, null, values); // insert to database
 
         db.close();
         return CODE_SUCCESS;
+    }
+
+    public User login (String email, String password) {
+        User user = null;
+
+        return user;
     }
 }

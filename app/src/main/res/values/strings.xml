@@ -23,4 +23,11 @@
     <string name="errorBirthdateDay">Must contain only digits</string>
     <string name="errorBirthdateMonth">Must contain only digits</string>
     <string name="errorBirthdateYear">Invalid birth year</string>
+
+    <!-- LoginActivity strings -->
+    <string name="editLoginEmail">Enter your e-mail</string>
+    <string name="editLoginPassword">Enter your password</string>
+
+    <string name="btnLogin">Login</string>
+    <string name="btnSignup">Signup</string>
 </resources>

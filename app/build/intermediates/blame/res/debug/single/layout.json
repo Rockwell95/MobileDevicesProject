@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
-        "source": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_media_custom.xml"
-    },
-    {
         "merged": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow_custom.xml",
         "source": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_media_custom.xml"
     },
     {
         "merged": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
@@ -94,6 +94,10 @@
     {
         "merged": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
         "source": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login_activity.xml",
+        "source": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\src\\main\\res\\layout\\login_activity.xml"
     },
     {
         "merged": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",

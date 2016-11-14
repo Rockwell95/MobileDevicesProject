@@ -31,7 +31,9 @@ public class SignupActivity extends AppCompatActivity {
             errors[i] = !errors[i];
         }
 
-        //
+        final RegexHelper rh = new RegexHelper(); // new instance of RegexHelper
+
+        // get all EditTexts from layout
         editUserFirstName = (EditText) findViewById(R.id.editUserFirstName);
         editUserLastName = (EditText) findViewById(R.id.editUserLastName);
         editUserEmail = (EditText) findViewById(R.id.editUserEmail);
@@ -49,7 +51,7 @@ public class SignupActivity extends AppCompatActivity {
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
             @Override
             public void afterTextChanged(Editable editable) {
-                if (!editUserEmail.getText().toString().matches("^\\w+@\\w+\\.\\w+$")) {
+                if (!editUserEmail.getText().toString().matches(rh.email)) {
                     editUserEmail.setError(getString(R.string.errorEmail));
                     errors[0] = true;
                 } else {
@@ -66,9 +68,7 @@ public class SignupActivity extends AppCompatActivity {
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
             @Override
             public void afterTextChanged(Editable editable) {
-                String passwordRegex = "^(?=.*[a-z]+)(?=.*[A-Z])(?=.*\\d).{8,}$";
-
-                if (!editUserPassword.getText().toString().matches(passwordRegex)) {
+                if (!editUserPassword.getText().toString().matches(rh.password)) {
                     editUserPassword.setError(getString(R.string.errorPasswordInvalid));
                     errors[1] = true;
                 } else {
@@ -102,7 +102,7 @@ public class SignupActivity extends AppCompatActivity {
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
             @Override
             public void afterTextChanged(Editable editable) {
-                if (!editUserBirthdateDay.getText().toString().matches("^[\\d]{1,2}$")) {
+                if (!editUserBirthdateDay.getText().toString().matches(rh.birthdateDay)) {
                     editUserBirthdateDay.setError(getString(R.string.errorBirthdateDay));
                     errors[3] = true;
                 } else {
@@ -119,7 +119,7 @@ public class SignupActivity extends AppCompatActivity {
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
             @Override
             public void afterTextChanged(Editable editable) {
-                if (!editUserBirthdateMonth.getText().toString().matches("^[\\d]{1,2}$")) {
+                if (!editUserBirthdateMonth.getText().toString().matches(rh.birthdateMonth)) {
                     editUserBirthdateMonth.setError(getString(R.string.errorBirthdateMonth));
                     errors[4] = true;
                 } else {
@@ -136,7 +136,7 @@ public class SignupActivity extends AppCompatActivity {
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
             @Override
             public void afterTextChanged(Editable editable) {
-                if (!editUserBirthdateYear.getText().toString().matches("^[\\d]{4}$")) {
+                if (!editUserBirthdateYear.getText().toString().matches(rh.birthdateYear)) {
                     editUserBirthdateYear.setError(getString(R.string.errorBirthdateYear));
                     errors[5] = true;
                 } else {
@@ -172,7 +172,7 @@ public class SignupActivity extends AppCompatActivity {
         DBHelper dbHelper = new DBHelper(this); // create new DBHelper
 
         int result = dbHelper.addUser(user);
-        // TODO: error messages
+        // display proper error message if addUsers was unsuccessful
         if (result == dbHelper.CODE_INVALID_EMAIL) {
             editUserEmail.setError(getString(R.string.errorEmail));
         } else if (result == dbHelper.CODE_EMAIL_TAKEN) {
@@ -182,7 +182,8 @@ public class SignupActivity extends AppCompatActivity {
         } else if (result == dbHelper.CODE_INVALID_BIRTHDATE) {
             editUserBirthdateYear.setError(getString(R.string.errorBirthdateYear));
         } else if (result == dbHelper.CODE_SUCCESS) {
-            Intent intent = new Intent(this, MainActivity.class);
+            // user added successfully, go to another activity
+            Intent intent = new Intent(this, LoginActivity.class);
             setResult(RESULT_OK, intent);
             finish();
         }
