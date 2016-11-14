@@ -740,8 +740,9 @@ int string errorBirthdateDay 0x7f06002c
 int string errorBirthdateMonth 0x7f06002d
 int string errorBirthdateYear 0x7f06002e
 int string errorEmail 0x7f06002f
-int string errorMatchingPassword 0x7f060030
-int string errorPasswordInvalid 0x7f060031
+int string errorEmailTaken 0x7f060030
+int string errorMatchingPassword 0x7f060031
+int string errorPasswordInvalid 0x7f060032
 int string search_menu_title 0x7f060013
 int string status_bar_notification_info_overflow 0x7f060014
 int style AlertDialog_AppCompat 0x7f080098

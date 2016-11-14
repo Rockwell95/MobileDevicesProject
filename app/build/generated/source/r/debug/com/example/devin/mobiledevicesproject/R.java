@@ -2041,8 +2041,9 @@ containing a value of this type.
         public static final int errorBirthdateMonth=0x7f06002d;
         public static final int errorBirthdateYear=0x7f06002e;
         public static final int errorEmail=0x7f06002f;
-        public static final int errorMatchingPassword=0x7f060030;
-        public static final int errorPasswordInvalid=0x7f060031;
+        public static final int errorEmailTaken=0x7f060030;
+        public static final int errorMatchingPassword=0x7f060031;
+        public static final int errorPasswordInvalid=0x7f060032;
         public static final int search_menu_title=0x7f060013;
         public static final int status_bar_notification_info_overflow=0x7f060014;
     }

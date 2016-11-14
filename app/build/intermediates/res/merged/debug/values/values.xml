@@ -369,6 +369,7 @@
     <string name="errorBirthdateMonth">Must contain only digits</string>
     <string name="errorBirthdateYear">Invalid birth year</string>
     <string name="errorEmail">Email invalid</string>
+    <string name="errorEmailTaken">Email is already in use</string>
     <string name="errorMatchingPassword">Password does not match</string>
     <string name="errorPasswordInvalid">Password must be atlease 8 characters long and must contain atleast 1 lowercase alphanumeric character, 1 uppercase alphanumeric character, and 1 number</string>
     <string name="search_menu_title">Search</string>

@@ -1,9 +1,11 @@
 package com.example.devin.mobiledevicesproject;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.view.View;
 import android.widget.EditText;
 
 public class SignupActivity extends AppCompatActivity {
@@ -22,9 +24,14 @@ public class SignupActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.signup_activity);
 
-        // 0 = email, 1 = password, 2 = passwordConfirm
+        // 0 = email, 1 = password, 2 = passwordConfirm,
+        // 3 = birthdateDay, 4 = birthdateMonth, 5 = birthdateYear
         errors = new boolean[6];
+        for (int i = 0; i < errors.length; i++) {
+            errors[i] = !errors[i];
+        }
 
+        //
         editUserFirstName = (EditText) findViewById(R.id.editUserFirstName);
         editUserLastName = (EditText) findViewById(R.id.editUserLastName);
         editUserEmail = (EditText) findViewById(R.id.editUserEmail);
@@ -137,5 +144,47 @@ public class SignupActivity extends AppCompatActivity {
                 }
             }
         });
+    }
+
+    protected void cancel (View view) {
+        Intent intent = new Intent(this, MainActivity.class);
+        setResult(RESULT_CANCELED, intent);
+        finish();
+    }
+
+    protected void confirm (View view) {
+        for (boolean error : errors) {
+            if (error)
+                return;
+        }
+        // extract data from input fields and construct a User from it
+        String firstName = editUserFirstName.getText().toString();
+        String lastName = editUserLastName.getText().toString();
+        String email = editUserEmail.getText().toString();
+        String password = editUserPassword.getText().toString();
+        String day = editUserBirthdateDay.getText().toString();
+        String month = editUserBirthdateMonth.getText().toString();
+        String year = editUserBirthdateYear.getText().toString();
+
+        String birthdate = day + "/" + month + "/" + year;
+
+        User user = new User(firstName, lastName, email, password, birthdate);
+        DBHelper dbHelper = new DBHelper(this); // create new DBHelper
+
+        int result = dbHelper.addUser(user);
+        // TODO: error messages
+        if (result == dbHelper.CODE_INVALID_EMAIL) {
+            editUserEmail.setError(getString(R.string.errorEmail));
+        } else if (result == dbHelper.CODE_EMAIL_TAKEN) {
+            editUserEmail.setError(getString(R.string.errorEmailTaken));
+        } else if (result == dbHelper.CODE_INVALID_PASSWORD) {
+            editUserPassword.setError(getString(R.string.errorPasswordInvalid));
+        } else if (result == dbHelper.CODE_INVALID_BIRTHDATE) {
+            editUserBirthdateYear.setError(getString(R.string.errorBirthdateYear));
+        } else if (result == dbHelper.CODE_SUCCESS) {
+            Intent intent = new Intent(this, MainActivity.class);
+            setResult(RESULT_OK, intent);
+            finish();
+        }
     }
 }

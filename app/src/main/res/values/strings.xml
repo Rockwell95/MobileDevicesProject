@@ -17,6 +17,7 @@
     <string name="editUserBirthdateYear">YYYY</string>
         <!-- Error messages -->
     <string name="errorEmail">Email invalid</string>
+    <string name="errorEmailTaken">Email is already in use</string>
     <string name="errorPasswordInvalid">Password must be atlease 8 characters long and must contain atleast 1 lowercase alphanumeric character, 1 uppercase alphanumeric character, and 1 number</string>
     <string name="errorMatchingPassword">Password does not match</string>
     <string name="errorBirthdateDay">Must contain only digits</string>

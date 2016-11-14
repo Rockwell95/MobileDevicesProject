@@ -105,7 +105,8 @@
             android:layout_centerVertical="true"
             android:layout_alignParentStart="true"
             android:layout_marginStart="@dimen/btnMargin"
-            android:text="@string/btnCancel"/>
+            android:text="@string/btnCancel"
+            android:onClick="cancel"/>
 
         <Button android:id="@+id/btnLoginConfirm"
             android:layout_width="@dimen/btnMedSize"
@@ -113,6 +114,7 @@
             android:layout_centerVertical="true"
             android:layout_alignParentEnd="true"
             android:layout_marginEnd="@dimen/btnMargin"
-            android:text="@string/btnConfirm"/>
+            android:text="@string/btnConfirm"
+            android:onClick="confirm"/>
     </RelativeLayout>
 </LinearLayout>
