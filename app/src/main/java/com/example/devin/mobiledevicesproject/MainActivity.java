@@ -23,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
         if (resultCode == RESULT_OK) {
             if (requestCode == RESULT_LOGIN_ACTIVITY) {
                 // TODO: things after login
+                Intent intent = new Intent(this, MapsActivity.class);
+                startActivity(intent);
             }
         }
     }

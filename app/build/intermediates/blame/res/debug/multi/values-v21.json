@@ -2018,9 +2018,28 @@
                     "startLine": 279,
                     "startColumn": 4,
                     "startOffset": 20451,
-                    "endLine": 281,
+                    "endColumn": 121,
+                    "endOffset": 20568
+                },
+                "from": {
+                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-appinvite\\9.6.1\\res\\values-v21\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 232,
+                        "endColumn": 121,
+                        "endOffset": 349
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 280,
+                    "startColumn": 4,
+                    "startOffset": 20573,
+                    "endLine": 282,
                     "endColumn": 12,
-                    "endOffset": 20621
+                    "endOffset": 20743
                 },
                 "from": {
                     "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-v21\\values-v21.xml",
@@ -2036,12 +2055,12 @@
             },
             {
                 "to": {
-                    "startLine": 282,
+                    "startLine": 283,
                     "startColumn": 4,
-                    "startOffset": 20626,
-                    "endLine": 286,
+                    "startOffset": 20748,
+                    "endLine": 287,
                     "endColumn": 12,
-                    "endOffset": 20962
+                    "endOffset": 21084
                 },
                 "from": {
                     "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-v21\\values-v21.xml",
