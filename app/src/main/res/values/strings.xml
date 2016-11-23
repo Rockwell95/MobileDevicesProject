@@ -33,4 +33,7 @@
 
     <string name="errorEmailPasswordInvalid">Email or password invalid</string>
     <string name="title_activity_maps">Map</string>
+
+    <!-- Directions Activity -->
+    <string name="get_directions">Get Directions</string>
 </resources>

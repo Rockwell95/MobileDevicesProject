@@ -23,6 +23,10 @@
 
     <uses-permission android:name="com.example.devin.mobiledevicesproject.permission.C2D_MESSAGE" />
 
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <uses-feature
         android:glEsVersion="0x00020000"
         android:required="true" />
@@ -50,6 +54,7 @@
         <activity
             android:name="com.example.devin.mobiledevicesproject.MapsActivity"
             android:label="@string/title_activity_maps" />
+        <activity android:name="com.example.devin.mobiledevicesproject.Directions" />
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"
@@ -131,13 +136,6 @@ Service handling Google Sign-In user revocation. For apps that do not integrate 
             android:authorities="com.example.devin.mobiledevicesproject.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
-
-        <service
-            android:name="com.google.firebase.crash.internal.service.FirebaseCrashReceiverService"
-            android:process=":background_crash" />
-        <service
-            android:name="com.google.firebase.crash.internal.service.FirebaseCrashSenderService"
-            android:process=":background_crash" />
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"

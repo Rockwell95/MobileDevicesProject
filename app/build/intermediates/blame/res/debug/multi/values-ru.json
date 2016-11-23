@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ru\\values-ru.xml",
+        "outputFile": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru/values-ru.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 215
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-ru\\values-ru.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-ru/values-ru.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 323
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-ru\\values-ru.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-ru/values-ru.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 446
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-ru\\values-ru.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-ru/values-ru.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 548
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-ru\\values-ru.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-ru/values-ru.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 660
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-ru\\values-ru.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-ru/values-ru.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 746
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-ru\\values-ru.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-ru/values-ru.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 851
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-ru\\values-ru.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-ru/values-ru.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 971
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-ru\\values-ru.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-ru/values-ru.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -163,7 +163,7 @@
                     "endOffset": 1050
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-ru\\values-ru.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-ru/values-ru.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -182,7 +182,7 @@
                     "endOffset": 1128
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-ru\\values-ru.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-ru/values-ru.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 1208
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-ru\\values-ru.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-ru/values-ru.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -220,7 +220,7 @@
                     "endOffset": 1314
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-ru\\values-ru.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-ru/values-ru.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -239,7 +239,7 @@
                     "endOffset": 1422
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-ru\\values-ru.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-ru/values-ru.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -258,7 +258,7 @@
                     "endOffset": 1520
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-ru\\values-ru.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-ru/values-ru.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -277,7 +277,7 @@
                     "endOffset": 1629
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-ru\\values-ru.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-ru/values-ru.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -296,7 +296,7 @@
                     "endOffset": 1735
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-ru\\values-ru.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-ru/values-ru.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -315,7 +315,7 @@
                     "endOffset": 1843
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-ru\\values-ru.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-ru/values-ru.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -334,7 +334,7 @@
                     "endOffset": 1979
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-ru\\values-ru.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-ru/values-ru.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -353,7 +353,7 @@
                     "endOffset": 2079
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-ru\\values-ru.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-ru/values-ru.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -368,17 +368,17 @@
                     "startLine": 21,
                     "startColumn": 4,
                     "startOffset": 2084,
-                    "endColumn": 82,
-                    "endOffset": 2162
+                    "endColumn": 72,
+                    "endOffset": 2152
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.0/res/values-ru/values.xml",
                     "position": {
                         "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 356,
-                        "endColumn": 82,
-                        "endOffset": 434
+                        "startColumn": 0,
+                        "startOffset": 237,
+                        "endColumn": 68,
+                        "endOffset": 305
                     }
                 }
             },
@@ -386,18 +386,18 @@
                 "to": {
                     "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 2167,
-                    "endColumn": 111,
-                    "endOffset": 2274
+                    "startOffset": 2157,
+                    "endColumn": 82,
+                    "endOffset": 2235
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 439,
-                        "endColumn": 111,
-                        "endOffset": 546
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 298,
+                        "endColumn": 78,
+                        "endOffset": 376
                     }
                 }
             },
@@ -405,18 +405,18 @@
                 "to": {
                     "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 2279,
-                    "endColumn": 87,
-                    "endOffset": 2362
+                    "startOffset": 2240,
+                    "endColumn": 111,
+                    "endOffset": 2347
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 551,
-                        "endColumn": 87,
-                        "endOffset": 634
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 377,
+                        "endColumn": 107,
+                        "endOffset": 484
                     }
                 }
             },
@@ -424,18 +424,18 @@
                 "to": {
                     "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 2367,
-                    "endColumn": 110,
-                    "endOffset": 2473
+                    "startOffset": 2352,
+                    "endColumn": 87,
+                    "endOffset": 2435
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 639,
-                        "endColumn": 110,
-                        "endOffset": 745
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 485,
+                        "endColumn": 83,
+                        "endOffset": 568
                     }
                 }
             },
@@ -443,18 +443,18 @@
                 "to": {
                     "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 2478,
-                    "endColumn": 83,
-                    "endOffset": 2557
+                    "startOffset": 2440,
+                    "endColumn": 110,
+                    "endOffset": 2546
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 750,
-                        "endColumn": 83,
-                        "endOffset": 829
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 569,
+                        "endColumn": 106,
+                        "endOffset": 675
                     }
                 }
             },
@@ -462,18 +462,18 @@
                 "to": {
                     "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 2562,
-                    "endColumn": 120,
-                    "endOffset": 2678
+                    "startOffset": 2551,
+                    "endColumn": 83,
+                    "endOffset": 2630
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 834,
-                        "endColumn": 120,
-                        "endOffset": 950
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 676,
+                        "endColumn": 79,
+                        "endOffset": 755
                     }
                 }
             },
@@ -481,18 +481,18 @@
                 "to": {
                     "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 2683,
-                    "endColumn": 107,
-                    "endOffset": 2786
+                    "startOffset": 2635,
+                    "endColumn": 158,
+                    "endOffset": 2789
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 955,
-                        "endColumn": 107,
-                        "endOffset": 1058
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 756,
+                        "endColumn": 154,
+                        "endOffset": 910
                     }
                 }
             },
@@ -500,18 +500,18 @@
                 "to": {
                     "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 2791,
-                    "endColumn": 116,
-                    "endOffset": 2903
+                    "startOffset": 2794,
+                    "endColumn": 120,
+                    "endOffset": 2910
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 1063,
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 911,
                         "endColumn": 116,
-                        "endOffset": 1175
+                        "endOffset": 1027
                     }
                 }
             },
@@ -519,18 +519,18 @@
                 "to": {
                     "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 2908,
-                    "endColumn": 100,
-                    "endOffset": 3004
+                    "startOffset": 2915,
+                    "endColumn": 107,
+                    "endOffset": 3018
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1180,
-                        "endColumn": 100,
-                        "endOffset": 1276
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 1028,
+                        "endColumn": 103,
+                        "endOffset": 1131
                     }
                 }
             },
@@ -538,18 +538,18 @@
                 "to": {
                     "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 3009,
-                    "endColumn": 107,
-                    "endOffset": 3112
+                    "startOffset": 3023,
+                    "endColumn": 116,
+                    "endOffset": 3135
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1281,
-                        "endColumn": 107,
-                        "endOffset": 1384
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 1132,
+                        "endColumn": 112,
+                        "endOffset": 1244
                     }
                 }
             },
@@ -557,18 +557,18 @@
                 "to": {
                     "startLine": 31,
                     "startColumn": 4,
-                    "startOffset": 3117,
-                    "endColumn": 88,
-                    "endOffset": 3201
+                    "startOffset": 3140,
+                    "endColumn": 100,
+                    "endOffset": 3236
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 1389,
-                        "endColumn": 88,
-                        "endOffset": 1473
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 1245,
+                        "endColumn": 96,
+                        "endOffset": 1341
                     }
                 }
             },
@@ -576,18 +576,18 @@
                 "to": {
                     "startLine": 32,
                     "startColumn": 4,
-                    "startOffset": 3206,
-                    "endColumn": 104,
-                    "endOffset": 3306
+                    "startOffset": 3241,
+                    "endColumn": 107,
+                    "endOffset": 3344
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 1478,
-                        "endColumn": 104,
-                        "endOffset": 1578
+                        "startLine": 14,
+                        "startColumn": 0,
+                        "startOffset": 1342,
+                        "endColumn": 103,
+                        "endOffset": 1445
                     }
                 }
             },
@@ -595,18 +595,18 @@
                 "to": {
                     "startLine": 33,
                     "startColumn": 4,
-                    "startOffset": 3311,
-                    "endColumn": 104,
-                    "endOffset": 3411
+                    "startOffset": 3349,
+                    "endColumn": 88,
+                    "endOffset": 3433
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 1583,
-                        "endColumn": 104,
-                        "endOffset": 1683
+                        "startLine": 15,
+                        "startColumn": 0,
+                        "startOffset": 1446,
+                        "endColumn": 84,
+                        "endOffset": 1530
                     }
                 }
             },
@@ -614,18 +614,18 @@
                 "to": {
                     "startLine": 34,
                     "startColumn": 4,
-                    "startOffset": 3416,
-                    "endColumn": 107,
-                    "endOffset": 3519
+                    "startOffset": 3438,
+                    "endColumn": 104,
+                    "endOffset": 3538
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 1688,
-                        "endColumn": 107,
-                        "endOffset": 1791
+                        "startLine": 16,
+                        "startColumn": 0,
+                        "startOffset": 1531,
+                        "endColumn": 100,
+                        "endOffset": 1631
                     }
                 }
             },
@@ -633,18 +633,18 @@
                 "to": {
                     "startLine": 35,
                     "startColumn": 4,
-                    "startOffset": 3524,
-                    "endColumn": 82,
-                    "endOffset": 3602
+                    "startOffset": 3543,
+                    "endColumn": 104,
+                    "endOffset": 3643
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 1796,
-                        "endColumn": 82,
-                        "endOffset": 1874
+                        "startLine": 17,
+                        "startColumn": 0,
+                        "startOffset": 1632,
+                        "endColumn": 100,
+                        "endOffset": 1732
                     }
                 }
             },
@@ -652,18 +652,18 @@
                 "to": {
                     "startLine": 36,
                     "startColumn": 4,
-                    "startOffset": 3607,
-                    "endColumn": 136,
-                    "endOffset": 3739
+                    "startOffset": 3648,
+                    "endColumn": 107,
+                    "endOffset": 3751
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 346,
-                        "endColumn": 136,
-                        "endOffset": 478
+                        "startLine": 18,
+                        "startColumn": 0,
+                        "startOffset": 1733,
+                        "endColumn": 103,
+                        "endOffset": 1836
                     }
                 }
             },
@@ -671,18 +671,18 @@
                 "to": {
                     "startLine": 37,
                     "startColumn": 4,
-                    "startOffset": 3744,
-                    "endColumn": 139,
-                    "endOffset": 3879
+                    "startOffset": 3756,
+                    "endColumn": 82,
+                    "endOffset": 3834
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 483,
-                        "endColumn": 139,
-                        "endOffset": 618
+                        "startLine": 19,
+                        "startColumn": 0,
+                        "startOffset": 1837,
+                        "endColumn": 78,
+                        "endOffset": 1915
                     }
                 }
             },
@@ -690,18 +690,18 @@
                 "to": {
                     "startLine": 38,
                     "startColumn": 4,
-                    "startOffset": 3884,
-                    "endColumn": 96,
-                    "endOffset": 3976
+                    "startOffset": 3839,
+                    "endColumn": 136,
+                    "endOffset": 3971
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 623,
-                        "endColumn": 96,
-                        "endOffset": 715
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 288,
+                        "endColumn": 136,
+                        "endOffset": 424
                     }
                 }
             },
@@ -709,18 +709,18 @@
                 "to": {
                     "startLine": 39,
                     "startColumn": 4,
-                    "startOffset": 3981,
-                    "endColumn": 82,
-                    "endOffset": 4059
+                    "startOffset": 3976,
+                    "endColumn": 139,
+                    "endOffset": 4111
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 1879,
-                        "endColumn": 82,
-                        "endOffset": 1957
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 425,
+                        "endColumn": 139,
+                        "endOffset": 564
                     }
                 }
             },
@@ -728,18 +728,18 @@
                 "to": {
                     "startLine": 40,
                     "startColumn": 4,
-                    "startOffset": 4064,
-                    "endColumn": 81,
-                    "endOffset": 4141
+                    "startOffset": 4116,
+                    "endColumn": 96,
+                    "endOffset": 4208
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 1962,
-                        "endColumn": 81,
-                        "endOffset": 2039
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 565,
+                        "endColumn": 92,
+                        "endOffset": 657
                     }
                 }
             },
@@ -747,18 +747,18 @@
                 "to": {
                     "startLine": 41,
                     "startColumn": 4,
-                    "startOffset": 4146,
-                    "endColumn": 86,
-                    "endOffset": 4228
+                    "startOffset": 4213,
+                    "endColumn": 82,
+                    "endOffset": 4291
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 2044,
-                        "endColumn": 86,
-                        "endOffset": 2126
+                        "startLine": 20,
+                        "startColumn": 0,
+                        "startOffset": 1916,
+                        "endColumn": 78,
+                        "endOffset": 1994
                     }
                 }
             },
@@ -766,18 +766,18 @@
                 "to": {
                     "startLine": 42,
                     "startColumn": 4,
-                    "startOffset": 4233,
-                    "endColumn": 102,
-                    "endOffset": 4331
+                    "startOffset": 4296,
+                    "endColumn": 81,
+                    "endOffset": 4373
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 2131,
-                        "endColumn": 102,
-                        "endOffset": 2229
+                        "startLine": 21,
+                        "startColumn": 0,
+                        "startOffset": 1995,
+                        "endColumn": 77,
+                        "endOffset": 2072
                     }
                 }
             },
@@ -785,18 +785,18 @@
                 "to": {
                     "startLine": 43,
                     "startColumn": 4,
-                    "startOffset": 4336,
-                    "endColumn": 102,
-                    "endOffset": 4434
+                    "startOffset": 4378,
+                    "endColumn": 86,
+                    "endOffset": 4460
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 23,
-                        "startColumn": 4,
-                        "startOffset": 2234,
-                        "endColumn": 102,
-                        "endOffset": 2332
+                        "startLine": 22,
+                        "startColumn": 0,
+                        "startOffset": 2073,
+                        "endColumn": 82,
+                        "endOffset": 2155
                     }
                 }
             },
@@ -804,18 +804,18 @@
                 "to": {
                     "startLine": 44,
                     "startColumn": 4,
-                    "startOffset": 4439,
-                    "endColumn": 90,
-                    "endOffset": 4525
+                    "startOffset": 4465,
+                    "endColumn": 102,
+                    "endOffset": 4563
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 24,
-                        "startColumn": 4,
-                        "startOffset": 2337,
-                        "endColumn": 90,
-                        "endOffset": 2423
+                        "startLine": 23,
+                        "startColumn": 0,
+                        "startOffset": 2156,
+                        "endColumn": 98,
+                        "endOffset": 2254
                     }
                 }
             },
@@ -823,18 +823,18 @@
                 "to": {
                     "startLine": 45,
                     "startColumn": 4,
-                    "startOffset": 4530,
-                    "endColumn": 101,
-                    "endOffset": 4627
+                    "startOffset": 4568,
+                    "endColumn": 102,
+                    "endOffset": 4666
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 25,
-                        "startColumn": 4,
-                        "startOffset": 2428,
-                        "endColumn": 101,
-                        "endOffset": 2525
+                        "startLine": 24,
+                        "startColumn": 0,
+                        "startOffset": 2255,
+                        "endColumn": 98,
+                        "endOffset": 2353
                     }
                 }
             },
@@ -842,18 +842,18 @@
                 "to": {
                     "startLine": 46,
                     "startColumn": 4,
-                    "startOffset": 4632,
-                    "endColumn": 102,
-                    "endOffset": 4730
+                    "startOffset": 4671,
+                    "endColumn": 90,
+                    "endOffset": 4757
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 26,
-                        "startColumn": 4,
-                        "startOffset": 2530,
-                        "endColumn": 102,
-                        "endOffset": 2628
+                        "startLine": 25,
+                        "startColumn": 0,
+                        "startOffset": 2354,
+                        "endColumn": 86,
+                        "endOffset": 2440
                     }
                 }
             },
@@ -861,18 +861,18 @@
                 "to": {
                     "startLine": 47,
                     "startColumn": 4,
-                    "startOffset": 4735,
-                    "endColumn": 78,
-                    "endOffset": 4809
+                    "startOffset": 4762,
+                    "endColumn": 101,
+                    "endOffset": 4859
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 27,
-                        "startColumn": 4,
-                        "startOffset": 2633,
-                        "endColumn": 78,
-                        "endOffset": 2707
+                        "startLine": 26,
+                        "startColumn": 0,
+                        "startOffset": 2441,
+                        "endColumn": 97,
+                        "endOffset": 2538
                     }
                 }
             },
@@ -880,18 +880,18 @@
                 "to": {
                     "startLine": 48,
                     "startColumn": 4,
-                    "startOffset": 4814,
-                    "endColumn": 101,
-                    "endOffset": 4911
+                    "startOffset": 4864,
+                    "endColumn": 102,
+                    "endOffset": 4962
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 28,
-                        "startColumn": 4,
-                        "startOffset": 2712,
-                        "endColumn": 101,
-                        "endOffset": 2809
+                        "startLine": 27,
+                        "startColumn": 0,
+                        "startOffset": 2539,
+                        "endColumn": 98,
+                        "endOffset": 2637
                     }
                 }
             },
@@ -899,18 +899,18 @@
                 "to": {
                     "startLine": 49,
                     "startColumn": 4,
-                    "startOffset": 4916,
-                    "endColumn": 96,
-                    "endOffset": 5008
+                    "startOffset": 4967,
+                    "endColumn": 78,
+                    "endOffset": 5041
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 29,
-                        "startColumn": 4,
-                        "startOffset": 2814,
-                        "endColumn": 96,
-                        "endOffset": 2906
+                        "startLine": 28,
+                        "startColumn": 0,
+                        "startOffset": 2638,
+                        "endColumn": 74,
+                        "endOffset": 2712
                     }
                 }
             },
@@ -918,18 +918,18 @@
                 "to": {
                     "startLine": 50,
                     "startColumn": 4,
-                    "startOffset": 5013,
-                    "endColumn": 98,
-                    "endOffset": 5107
+                    "startOffset": 5046,
+                    "endColumn": 101,
+                    "endOffset": 5143
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 30,
-                        "startColumn": 4,
-                        "startOffset": 2911,
-                        "endColumn": 98,
-                        "endOffset": 3005
+                        "startLine": 29,
+                        "startColumn": 0,
+                        "startOffset": 2713,
+                        "endColumn": 97,
+                        "endOffset": 2810
                     }
                 }
             },
@@ -937,18 +937,18 @@
                 "to": {
                     "startLine": 51,
                     "startColumn": 4,
-                    "startOffset": 5112,
-                    "endColumn": 142,
-                    "endOffset": 5250
+                    "startOffset": 5148,
+                    "endColumn": 96,
+                    "endOffset": 5240
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 31,
-                        "startColumn": 4,
-                        "startOffset": 3010,
-                        "endColumn": 142,
-                        "endOffset": 3148
+                        "startLine": 30,
+                        "startColumn": 0,
+                        "startOffset": 2811,
+                        "endColumn": 92,
+                        "endOffset": 2903
                     }
                 }
             },
@@ -956,18 +956,18 @@
                 "to": {
                     "startLine": 52,
                     "startColumn": 4,
-                    "startOffset": 5255,
-                    "endColumn": 126,
-                    "endOffset": 5377
+                    "startOffset": 5245,
+                    "endColumn": 98,
+                    "endOffset": 5339
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 32,
-                        "startColumn": 4,
-                        "startOffset": 3153,
-                        "endColumn": 126,
-                        "endOffset": 3275
+                        "startLine": 31,
+                        "startColumn": 0,
+                        "startOffset": 2904,
+                        "endColumn": 94,
+                        "endOffset": 2998
                     }
                 }
             },
@@ -975,18 +975,18 @@
                 "to": {
                     "startLine": 53,
                     "startColumn": 4,
-                    "startOffset": 5382,
-                    "endColumn": 130,
-                    "endOffset": 5508
+                    "startOffset": 5344,
+                    "endColumn": 109,
+                    "endOffset": 5449
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 33,
-                        "startColumn": 4,
-                        "startOffset": 3280,
-                        "endColumn": 130,
-                        "endOffset": 3406
+                        "startLine": 32,
+                        "startColumn": 0,
+                        "startOffset": 2999,
+                        "endColumn": 105,
+                        "endOffset": 3104
                     }
                 }
             },
@@ -994,18 +994,18 @@
                 "to": {
                     "startLine": 54,
                     "startColumn": 4,
-                    "startOffset": 5513,
-                    "endColumn": 93,
-                    "endOffset": 5602
+                    "startOffset": 5454,
+                    "endColumn": 142,
+                    "endOffset": 5592
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 34,
-                        "startColumn": 4,
-                        "startOffset": 3411,
-                        "endColumn": 93,
-                        "endOffset": 3500
+                        "startLine": 33,
+                        "startColumn": 0,
+                        "startOffset": 3105,
+                        "endColumn": 142,
+                        "endOffset": 3247
                     }
                 }
             },
@@ -1013,18 +1013,18 @@
                 "to": {
                     "startLine": 55,
                     "startColumn": 4,
-                    "startOffset": 5607,
-                    "endColumn": 90,
-                    "endOffset": 5693
+                    "startOffset": 5597,
+                    "endColumn": 126,
+                    "endOffset": 5719
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 35,
-                        "startColumn": 4,
-                        "startOffset": 3505,
-                        "endColumn": 90,
-                        "endOffset": 3591
+                        "startLine": 34,
+                        "startColumn": 0,
+                        "startOffset": 3248,
+                        "endColumn": 122,
+                        "endOffset": 3370
                     }
                 }
             },
@@ -1032,18 +1032,18 @@
                 "to": {
                     "startLine": 56,
                     "startColumn": 4,
-                    "startOffset": 5698,
-                    "endColumn": 103,
-                    "endOffset": 5797
+                    "startOffset": 5724,
+                    "endColumn": 130,
+                    "endOffset": 5850
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 36,
-                        "startColumn": 4,
-                        "startOffset": 3596,
-                        "endColumn": 103,
-                        "endOffset": 3695
+                        "startLine": 35,
+                        "startColumn": 0,
+                        "startOffset": 3371,
+                        "endColumn": 126,
+                        "endOffset": 3497
                     }
                 }
             },
@@ -1051,18 +1051,18 @@
                 "to": {
                     "startLine": 57,
                     "startColumn": 4,
-                    "startOffset": 5802,
-                    "endColumn": 83,
-                    "endOffset": 5881
+                    "startOffset": 5855,
+                    "endColumn": 93,
+                    "endOffset": 5944
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 37,
-                        "startColumn": 4,
-                        "startOffset": 3700,
-                        "endColumn": 83,
-                        "endOffset": 3779
+                        "startLine": 36,
+                        "startColumn": 0,
+                        "startOffset": 3498,
+                        "endColumn": 89,
+                        "endOffset": 3587
                     }
                 }
             },
@@ -1070,18 +1070,18 @@
                 "to": {
                     "startLine": 58,
                     "startColumn": 4,
-                    "startOffset": 5886,
-                    "endColumn": 108,
-                    "endOffset": 5990
+                    "startOffset": 5949,
+                    "endColumn": 90,
+                    "endOffset": 6035
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 340,
-                        "endColumn": 108,
-                        "endOffset": 444
+                        "startLine": 37,
+                        "startColumn": 0,
+                        "startOffset": 3588,
+                        "endColumn": 86,
+                        "endOffset": 3674
                     }
                 }
             },
@@ -1089,18 +1089,18 @@
                 "to": {
                     "startLine": 59,
                     "startColumn": 4,
-                    "startOffset": 5995,
-                    "endColumn": 197,
-                    "endOffset": 6188
+                    "startOffset": 6040,
+                    "endColumn": 103,
+                    "endOffset": 6139
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 449,
-                        "endColumn": 197,
-                        "endOffset": 642
+                        "startLine": 38,
+                        "startColumn": 0,
+                        "startOffset": 3675,
+                        "endColumn": 99,
+                        "endOffset": 3774
                     }
                 }
             },
@@ -1108,18 +1108,18 @@
                 "to": {
                     "startLine": 60,
                     "startColumn": 4,
-                    "startOffset": 6193,
-                    "endColumn": 127,
-                    "endOffset": 6316
+                    "startOffset": 6144,
+                    "endColumn": 83,
+                    "endOffset": 6223
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 647,
-                        "endColumn": 127,
-                        "endOffset": 770
+                        "startLine": 39,
+                        "startColumn": 0,
+                        "startOffset": 3775,
+                        "endColumn": 79,
+                        "endOffset": 3854
                     }
                 }
             },
@@ -1127,18 +1127,18 @@
                 "to": {
                     "startLine": 61,
                     "startColumn": 4,
-                    "startOffset": 6321,
-                    "endColumn": 111,
-                    "endOffset": 6428
+                    "startOffset": 6228,
+                    "endColumn": 108,
+                    "endOffset": 6332
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 775,
-                        "endColumn": 111,
-                        "endOffset": 882
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 283,
+                        "endColumn": 104,
+                        "endOffset": 387
                     }
                 }
             },
@@ -1146,18 +1146,18 @@
                 "to": {
                     "startLine": 62,
                     "startColumn": 4,
-                    "startOffset": 6433,
-                    "endColumn": 206,
-                    "endOffset": 6635
+                    "startOffset": 6337,
+                    "endColumn": 197,
+                    "endOffset": 6530
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 887,
-                        "endColumn": 206,
-                        "endOffset": 1089
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 388,
+                        "endColumn": 197,
+                        "endOffset": 585
                     }
                 }
             },
@@ -1165,18 +1165,18 @@
                 "to": {
                     "startLine": 63,
                     "startColumn": 4,
-                    "startOffset": 6640,
-                    "endColumn": 207,
-                    "endOffset": 6843
+                    "startOffset": 6535,
+                    "endColumn": 127,
+                    "endOffset": 6658
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 1094,
-                        "endColumn": 207,
-                        "endOffset": 1297
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 586,
+                        "endColumn": 123,
+                        "endOffset": 709
                     }
                 }
             },
@@ -1184,18 +1184,18 @@
                 "to": {
                     "startLine": 64,
                     "startColumn": 4,
-                    "startOffset": 6848,
-                    "endColumn": 130,
-                    "endOffset": 6974
+                    "startOffset": 6663,
+                    "endColumn": 111,
+                    "endOffset": 6770
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 1302,
-                        "endColumn": 130,
-                        "endOffset": 1428
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 710,
+                        "endColumn": 107,
+                        "endOffset": 817
                     }
                 }
             },
@@ -1203,18 +1203,18 @@
                 "to": {
                     "startLine": 65,
                     "startColumn": 4,
-                    "startOffset": 6979,
-                    "endColumn": 132,
-                    "endOffset": 7107
+                    "startOffset": 6775,
+                    "endColumn": 200,
+                    "endOffset": 6971
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 1433,
-                        "endColumn": 132,
-                        "endOffset": 1561
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 818,
+                        "endColumn": 200,
+                        "endOffset": 1018
                     }
                 }
             },
@@ -1222,18 +1222,18 @@
                 "to": {
                     "startLine": 66,
                     "startColumn": 4,
-                    "startOffset": 7112,
-                    "endColumn": 250,
-                    "endOffset": 7358
+                    "startOffset": 6976,
+                    "endColumn": 130,
+                    "endOffset": 7102
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 343,
-                        "endColumn": 250,
-                        "endOffset": 589
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 1019,
+                        "endColumn": 126,
+                        "endOffset": 1145
                     }
                 }
             },
@@ -1241,18 +1241,18 @@
                 "to": {
                     "startLine": 67,
                     "startColumn": 4,
-                    "startOffset": 7363,
-                    "endColumn": 263,
-                    "endOffset": 7622
+                    "startOffset": 7107,
+                    "endColumn": 132,
+                    "endOffset": 7235
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1566,
-                        "endColumn": 263,
-                        "endOffset": 1825
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 1146,
+                        "endColumn": 128,
+                        "endOffset": 1274
                     }
                 }
             },
@@ -1260,18 +1260,18 @@
                 "to": {
                     "startLine": 68,
                     "startColumn": 4,
-                    "startOffset": 7627,
-                    "endColumn": 122,
-                    "endOffset": 7745
+                    "startOffset": 7240,
+                    "endColumn": 215,
+                    "endOffset": 7451
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1830,
-                        "endColumn": 122,
-                        "endOffset": 1948
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 285,
+                        "endColumn": 215,
+                        "endOffset": 500
                     }
                 }
             },
@@ -1279,18 +1279,18 @@
                 "to": {
                     "startLine": 69,
                     "startColumn": 4,
-                    "startOffset": 7750,
-                    "endColumn": 108,
-                    "endOffset": 7854
+                    "startOffset": 7456,
+                    "endColumn": 239,
+                    "endOffset": 7691
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 1953,
-                        "endColumn": 108,
-                        "endOffset": 2057
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 1275,
+                        "endColumn": 239,
+                        "endOffset": 1514
                     }
                 }
             },
@@ -1298,18 +1298,18 @@
                 "to": {
                     "startLine": 70,
                     "startColumn": 4,
-                    "startOffset": 7859,
-                    "endColumn": 193,
-                    "endOffset": 8048
+                    "startOffset": 7696,
+                    "endColumn": 108,
+                    "endOffset": 7800
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 2062,
-                        "endColumn": 193,
-                        "endOffset": 2251
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 1515,
+                        "endColumn": 104,
+                        "endOffset": 1619
                     }
                 }
             },
@@ -1317,18 +1317,18 @@
                 "to": {
                     "startLine": 71,
                     "startColumn": 4,
-                    "startOffset": 8053,
-                    "endColumn": 127,
-                    "endOffset": 8176
+                    "startOffset": 7805,
+                    "endColumn": 193,
+                    "endOffset": 7994
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 2256,
-                        "endColumn": 127,
-                        "endOffset": 2379
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 1620,
+                        "endColumn": 193,
+                        "endOffset": 1813
                     }
                 }
             },
@@ -1336,18 +1336,18 @@
                 "to": {
                     "startLine": 72,
                     "startColumn": 4,
-                    "startOffset": 8181,
-                    "endColumn": 225,
-                    "endOffset": 8402
+                    "startOffset": 7999,
+                    "endColumn": 127,
+                    "endOffset": 8122
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 2384,
-                        "endColumn": 225,
-                        "endOffset": 2605
+                        "startLine": 14,
+                        "startColumn": 0,
+                        "startOffset": 1814,
+                        "endColumn": 123,
+                        "endOffset": 1937
                     }
                 }
             },
@@ -1355,18 +1355,18 @@
                 "to": {
                     "startLine": 73,
                     "startColumn": 4,
-                    "startOffset": 8407,
-                    "endColumn": 133,
-                    "endOffset": 8536
+                    "startOffset": 8127,
+                    "endColumn": 225,
+                    "endOffset": 8348
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 2610,
-                        "endColumn": 133,
-                        "endOffset": 2739
+                        "startLine": 15,
+                        "startColumn": 0,
+                        "startOffset": 1938,
+                        "endColumn": 225,
+                        "endOffset": 2163
                     }
                 }
             },
@@ -1374,18 +1374,18 @@
                 "to": {
                     "startLine": 74,
                     "startColumn": 4,
-                    "startOffset": 8541,
+                    "startOffset": 8353,
                     "endColumn": 187,
-                    "endOffset": 8724
+                    "endOffset": 8536
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 2744,
-                        "endColumn": 187,
-                        "endOffset": 2927
+                        "startLine": 16,
+                        "startColumn": 0,
+                        "startOffset": 2164,
+                        "endColumn": 183,
+                        "endOffset": 2347
                     }
                 }
             },
@@ -1393,18 +1393,18 @@
                 "to": {
                     "startLine": 75,
                     "startColumn": 4,
-                    "startOffset": 8729,
+                    "startOffset": 8541,
                     "endColumn": 98,
-                    "endOffset": 8823
+                    "endOffset": 8635
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 2932,
-                        "endColumn": 98,
-                        "endOffset": 3026
+                        "startLine": 17,
+                        "startColumn": 0,
+                        "startOffset": 2348,
+                        "endColumn": 94,
+                        "endOffset": 2442
                     }
                 }
             },
@@ -1412,18 +1412,18 @@
                 "to": {
                     "startLine": 76,
                     "startColumn": 4,
-                    "startOffset": 8828,
+                    "startOffset": 8640,
                     "endColumn": 89,
-                    "endOffset": 8913
+                    "endOffset": 8725
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 3031,
-                        "endColumn": 89,
-                        "endOffset": 3116
+                        "startLine": 18,
+                        "startColumn": 0,
+                        "startOffset": 2443,
+                        "endColumn": 85,
+                        "endOffset": 2528
                     }
                 }
             },
@@ -1431,18 +1431,18 @@
                 "to": {
                     "startLine": 77,
                     "startColumn": 4,
-                    "startOffset": 8918,
+                    "startOffset": 8730,
                     "endColumn": 114,
-                    "endOffset": 9028
+                    "endOffset": 8840
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.0/res/values-ru/values.xml",
                     "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 3121,
-                        "endColumn": 114,
-                        "endOffset": 3231
+                        "startLine": 19,
+                        "startColumn": 0,
+                        "startOffset": 2529,
+                        "endColumn": 110,
+                        "endOffset": 2639
                     }
                 }
             },
@@ -1450,12 +1450,145 @@
                 "to": {
                     "startLine": 78,
                     "startColumn": 4,
-                    "startOffset": 9033,
-                    "endColumn": 105,
-                    "endOffset": 9134
+                    "startOffset": 8845,
+                    "endColumn": 135,
+                    "endOffset": 8976
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\values-ru\\values-ru.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.0/res/values-ru/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 306,
+                        "endColumn": 131,
+                        "endOffset": 437
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 79,
+                    "startColumn": 4,
+                    "startOffset": 8981,
+                    "endColumn": 100,
+                    "endOffset": 9077
+                },
+                "from": {
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.0/res/values-ru/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 438,
+                        "endColumn": 96,
+                        "endOffset": 534
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 80,
+                    "startColumn": 4,
+                    "startOffset": 9082,
+                    "endColumn": 106,
+                    "endOffset": 9184
+                },
+                "from": {
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.0/res/values-ru/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 535,
+                        "endColumn": 102,
+                        "endOffset": 637
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 81,
+                    "startColumn": 4,
+                    "startOffset": 9189,
+                    "endColumn": 102,
+                    "endOffset": 9287
+                },
+                "from": {
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.0/res/values-ru/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 638,
+                        "endColumn": 98,
+                        "endOffset": 736
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 82,
+                    "startColumn": 4,
+                    "startOffset": 9292,
+                    "endColumn": 96,
+                    "endOffset": 9384
+                },
+                "from": {
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.0/res/values-ru/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 737,
+                        "endColumn": 92,
+                        "endOffset": 829
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 83,
+                    "startColumn": 4,
+                    "startOffset": 9389,
+                    "endColumn": 105,
+                    "endOffset": 9490
+                },
+                "from": {
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.0/res/values-ru/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 830,
+                        "endColumn": 101,
+                        "endOffset": 931
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 9495,
+                    "endColumn": 75,
+                    "endOffset": 9566
+                },
+                "from": {
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.0/res/values-ru/values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 932,
+                        "endColumn": 71,
+                        "endOffset": 1003
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 9571,
+                    "endColumn": 105,
+                    "endOffset": 9672
+                },
+                "from": {
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-ru/values-ru.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1467,14 +1600,14 @@
             },
             {
                 "to": {
-                    "startLine": 79,
+                    "startLine": 86,
                     "startColumn": 4,
-                    "startOffset": 9139,
+                    "startOffset": 9677,
                     "endColumn": 95,
-                    "endOffset": 9230
+                    "endOffset": 9768
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\values-ru\\values-ru.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-ru/values-ru.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1486,14 +1619,14 @@
             },
             {
                 "to": {
-                    "startLine": 80,
+                    "startLine": 87,
                     "startColumn": 4,
-                    "startOffset": 9235,
+                    "startOffset": 9773,
                     "endColumn": 93,
-                    "endOffset": 9324
+                    "endOffset": 9862
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\values-ru\\values-ru.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-ru/values-ru.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1505,14 +1638,14 @@
             },
             {
                 "to": {
-                    "startLine": 81,
+                    "startLine": 88,
                     "startColumn": 4,
-                    "startOffset": 9329,
+                    "startOffset": 9867,
                     "endColumn": 89,
-                    "endOffset": 9414
+                    "endOffset": 9952
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\values-ru\\values-ru.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-ru/values-ru.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1524,14 +1657,14 @@
             },
             {
                 "to": {
-                    "startLine": 82,
+                    "startLine": 89,
                     "startColumn": 4,
-                    "startOffset": 9419,
+                    "startOffset": 9957,
                     "endColumn": 120,
-                    "endOffset": 9535
+                    "endOffset": 10073
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\values-ru\\values-ru.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-ru/values-ru.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1543,14 +1676,14 @@
             },
             {
                 "to": {
-                    "startLine": 83,
+                    "startLine": 90,
                     "startColumn": 4,
-                    "startOffset": 9540,
+                    "startOffset": 10078,
                     "endColumn": 97,
-                    "endOffset": 9633
+                    "endOffset": 10171
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\values-ru\\values-ru.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-ru/values-ru.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1562,14 +1695,14 @@
             },
             {
                 "to": {
-                    "startLine": 84,
+                    "startLine": 91,
                     "startColumn": 4,
-                    "startOffset": 9638,
+                    "startOffset": 10176,
                     "endColumn": 95,
-                    "endOffset": 9729
+                    "endOffset": 10267
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\values-ru\\values-ru.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-ru/values-ru.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1581,14 +1714,14 @@
             },
             {
                 "to": {
-                    "startLine": 85,
+                    "startLine": 92,
                     "startColumn": 4,
-                    "startOffset": 9734,
+                    "startOffset": 10272,
                     "endColumn": 92,
-                    "endOffset": 9822
+                    "endOffset": 10360
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\values-ru\\values-ru.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-ru/values-ru.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1600,14 +1733,14 @@
             },
             {
                 "to": {
-                    "startLine": 86,
+                    "startLine": 93,
                     "startColumn": 4,
-                    "startOffset": 9827,
+                    "startOffset": 10365,
                     "endColumn": 95,
-                    "endOffset": 9918
+                    "endOffset": 10456
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\values-ru\\values-ru.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-ru/values-ru.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -1619,14 +1752,14 @@
             },
             {
                 "to": {
-                    "startLine": 87,
+                    "startLine": 94,
                     "startColumn": 4,
-                    "startOffset": 9923,
+                    "startOffset": 10461,
                     "endColumn": 100,
-                    "endOffset": 10019
+                    "endOffset": 10557
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\values-ru\\values-ru.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-ru/values-ru.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -1638,14 +1771,14 @@
             },
             {
                 "to": {
-                    "startLine": 88,
+                    "startLine": 95,
                     "startColumn": 4,
-                    "startOffset": 10024,
+                    "startOffset": 10562,
                     "endColumn": 109,
-                    "endOffset": 10129
+                    "endOffset": 10667
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\values-ru\\values-ru.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-ru/values-ru.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -1657,14 +1790,14 @@
             },
             {
                 "to": {
-                    "startLine": 89,
+                    "startLine": 96,
                     "startColumn": 4,
-                    "startOffset": 10134,
+                    "startOffset": 10672,
                     "endColumn": 91,
-                    "endOffset": 10221
+                    "endOffset": 10759
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\values-ru\\values-ru.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-ru/values-ru.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -1676,14 +1809,14 @@
             },
             {
                 "to": {
-                    "startLine": 90,
+                    "startLine": 97,
                     "startColumn": 4,
-                    "startOffset": 10226,
+                    "startOffset": 10764,
                     "endColumn": 89,
-                    "endOffset": 10311
+                    "endOffset": 10849
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\values-ru\\values-ru.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-ru/values-ru.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -1695,14 +1828,14 @@
             },
             {
                 "to": {
-                    "startLine": 91,
+                    "startLine": 98,
                     "startColumn": 4,
-                    "startOffset": 10316,
+                    "startOffset": 10854,
                     "endColumn": 98,
-                    "endOffset": 10410
+                    "endOffset": 10948
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\values-ru\\values-ru.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-ru/values-ru.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -1714,14 +1847,14 @@
             },
             {
                 "to": {
-                    "startLine": 92,
+                    "startLine": 99,
                     "startColumn": 4,
-                    "startOffset": 10415,
+                    "startOffset": 10953,
                     "endColumn": 86,
-                    "endOffset": 10497
+                    "endOffset": 11035
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\values-ru\\values-ru.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-ru/values-ru.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -1733,14 +1866,14 @@
             },
             {
                 "to": {
-                    "startLine": 93,
+                    "startLine": 100,
                     "startColumn": 4,
-                    "startOffset": 10502,
+                    "startOffset": 11040,
                     "endColumn": 96,
-                    "endOffset": 10594
+                    "endOffset": 11132
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\values-ru\\values-ru.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/values-ru/values-ru.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -1752,52 +1885,52 @@
             },
             {
                 "to": {
-                    "startLine": 94,
+                    "startLine": 101,
                     "startColumn": 4,
-                    "startOffset": 10599,
+                    "startOffset": 11137,
                     "endColumn": 114,
-                    "endOffset": 10709
+                    "endOffset": 11247
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.0.0/res/values-ru/values.xml",
                     "position": {
                         "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 293,
-                        "endColumn": 114,
-                        "endOffset": 403
+                        "startColumn": 0,
+                        "startOffset": 233,
+                        "endColumn": 110,
+                        "endOffset": 343
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 95,
+                    "startLine": 102,
                     "startColumn": 4,
-                    "startOffset": 10714,
+                    "startOffset": 11252,
                     "endColumn": 94,
-                    "endOffset": 10804
+                    "endOffset": 11342
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.0.0/res/values-ru/values.xml",
                     "position": {
                         "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 408,
-                        "endColumn": 94,
-                        "endOffset": 498
+                        "startColumn": 0,
+                        "startOffset": 344,
+                        "endColumn": 90,
+                        "endOffset": 434
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 96,
+                    "startLine": 103,
                     "startColumn": 4,
-                    "startOffset": 10809,
+                    "startOffset": 11347,
                     "endColumn": 80,
-                    "endOffset": 10885
+                    "endOffset": 11423
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-ru\\values-ru.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-ru/values-ru.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -1809,14 +1942,14 @@
             },
             {
                 "to": {
-                    "startLine": 97,
+                    "startLine": 104,
                     "startColumn": 4,
-                    "startOffset": 10890,
+                    "startOffset": 11428,
                     "endColumn": 100,
-                    "endOffset": 10986
+                    "endOffset": 11524
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-ru\\values-ru.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-ru/values-ru.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -1828,20 +1961,58 @@
             },
             {
                 "to": {
-                    "startLine": 98,
+                    "startLine": 105,
                     "startColumn": 4,
-                    "startOffset": 10991,
-                    "endColumn": 107,
-                    "endOffset": 11094
+                    "startOffset": 11529,
+                    "endColumn": 133,
+                    "endOffset": 11658
                 },
                 "from": {
-                    "file": "C:\\Users\\Devin\\AndroidStudioProjects\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-wallet\\9.6.1\\res\\values-ru\\values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.0/res/values-ru/values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 1004,
+                        "endColumn": 129,
+                        "endOffset": 1133
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 11663,
+                    "endColumn": 100,
+                    "endOffset": 11759
+                },
+                "from": {
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.0/res/values-ru/values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 1134,
+                        "endColumn": 96,
+                        "endOffset": 1230
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 107,
+                    "startColumn": 4,
+                    "startOffset": 11764,
+                    "endColumn": 107,
+                    "endOffset": 11867
+                },
+                "from": {
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/10.0.0/res/values-ru/values.xml",
                     "position": {
                         "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 300,
-                        "endColumn": 107,
-                        "endOffset": 403
+                        "startColumn": 0,
+                        "startOffset": 240,
+                        "endColumn": 103,
+                        "endOffset": 343
                     }
                 }
             }
