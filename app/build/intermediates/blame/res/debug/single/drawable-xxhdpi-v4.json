@@ -128,12 +128,12 @@
         "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_on_02_dark.png",
-        "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/drawable-xxhdpi-v4/ic_media_route_on_02_dark.png"
-    },
-    {
         "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/cast_abc_scrubber_control_to_pressed_mtrl_005.png",
         "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/drawable-xxhdpi-v4/cast_abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_on_02_dark.png",
+        "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/drawable-xxhdpi-v4/ic_media_route_on_02_dark.png"
     },
     {
         "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_on_13_dark.png",
@@ -146,10 +146,6 @@
     {
         "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_pause_dark.png",
         "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/drawable-xxhdpi-v4/ic_pause_dark.png"
-    },
-    {
-        "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_google_signin_btn_text_light_focused.9.png",
-        "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_focused.9.png"
     },
     {
         "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png",
@@ -326,10 +322,6 @@
     {
         "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_connecting_06_dark.png",
         "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/drawable-xxhdpi-v4/ic_media_route_connecting_06_dark.png"
-    },
-    {
-        "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_focused.9.png",
-        "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_focused.9.png"
     },
     {
         "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_pressed.9.png",
@@ -612,10 +604,6 @@
         "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/drawable-xxhdpi-v4/quantum_ic_play_arrow_grey600_48.png"
     },
     {
-        "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_focused.9.png",
-        "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_focused.9.png"
-    },
-    {
         "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal.9.png",
         "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.0/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal.9.png"
     },
@@ -638,10 +626,6 @@
     {
         "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png",
         "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png"
-    },
-    {
-        "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_focused.9.png",
-        "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_focused.9.png"
     },
     {
         "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_cast_white.png",
@@ -692,20 +676,20 @@
         "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/drawable-xxhdpi-v4/ic_media_route_connecting_08_dark.png"
     },
     {
-        "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_connecting_22_dark.png",
-        "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/drawable-xxhdpi-v4/ic_media_route_connecting_22_dark.png"
-    },
-    {
         "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_on_01_light.png",
         "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/drawable-xxhdpi-v4/ic_media_route_on_01_light.png"
     },
     {
-        "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/places_ic_clear.png",
-        "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.0.0/res/drawable-xxhdpi-v4/places_ic_clear.png"
+        "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_connecting_22_dark.png",
+        "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/drawable-xxhdpi-v4/ic_media_route_connecting_22_dark.png"
     },
     {
         "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/cast_abc_scrubber_control_to_pressed_mtrl_000.png",
         "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/drawable-xxhdpi-v4/cast_abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/places_ic_clear.png",
+        "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.0.0/res/drawable-xxhdpi-v4/places_ic_clear.png"
     },
     {
         "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_speaker_light.png",
@@ -768,10 +752,6 @@
         "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/drawable-xxhdpi-v4/ic_cast_dark.png"
     },
     {
-        "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_ic_googleplayservices.png",
-        "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/drawable-xxhdpi-v4/common_ic_googleplayservices.png"
-    },
-    {
         "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png",
         "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png"
     },
@@ -792,12 +772,12 @@
         "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.0/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_pressed.9.png"
     },
     {
-        "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_speaker_dark.png",
-        "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/drawable-xxhdpi-v4/ic_speaker_dark.png"
-    },
-    {
         "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_on_18_light.png",
         "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/drawable-xxhdpi-v4/ic_media_route_on_18_light.png"
+    },
+    {
+        "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_speaker_dark.png",
+        "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/drawable-xxhdpi-v4/ic_speaker_dark.png"
     },
     {
         "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_audiotrack_light.png",
@@ -846,10 +826,6 @@
     {
         "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_volume_off_grey600_36.png",
         "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.0/res/drawable-xxhdpi-v4/quantum_ic_volume_off_grey600_36.png"
-    },
-    {
-        "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_full_open_on_phone.png",
-        "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/drawable-xxhdpi-v4/common_full_open_on_phone.png"
     },
     {
         "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png",

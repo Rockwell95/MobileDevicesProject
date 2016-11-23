@@ -8,8 +8,11 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.database.sqlite.SQLiteStatement;
 import android.util.Log;
 
+import java.util.HashMap;
+
 public class DBHelper extends SQLiteOpenHelper {
     private static final String TABLE_NAME = "Users";
+    private static final String VEHICLE_TABLE_NAME = "Vehicles";
     private static final String DATABASE_NAME = "Users";
     private static int DATABASE_VERSION = 1;
 
@@ -20,6 +23,10 @@ public class DBHelper extends SQLiteOpenHelper {
     private static final String KEY_USER_EMAIL = "userEmail";
     private static final String KEY_USER_PASSWORD = "userPassword"; // TODO: password encryption?
     private static final String KEY_USER_BIRTHDATE = "userBirthdate";
+
+    //vehicle key information
+    private static final String KEY_VEHICLE_CLASS = "class";
+    private static final String KEY_VEHICLE_EFFICIENCY = "efficiencyMetric";
 
     public final int CODE_SUCCESS = 0;
     public final int CODE_INVALID_EMAIL = 1;
@@ -44,7 +51,34 @@ public class DBHelper extends SQLiteOpenHelper {
                             KEY_USER_PASSWORD + " TEXT NOT NULL, " +
                             KEY_USER_BIRTHDATE + " TEXT NOT NULL " +
                             ")";
+
+        String createVehicleDataBase = "CREATE TABLE " + VEHICLE_TABLE_NAME + " (" +
+                            KEY_VEHICLE_CLASS + "VARCHAR(100) PRIMARY KEY NOT NULL, " +
+                            KEY_VEHICLE_EFFICIENCY + "REAL" +
+                            ")";
+
         db.execSQL(createTable);
+        db.execSQL(createVehicleDataBase);
+
+        HashMap<String, Float> vehicleEfficiencies = new HashMap<>();
+        vehicleEfficiencies.put("Full Size Pickup",10.69f); // Based on Ford F-150
+        vehicleEfficiencies.put("Mid-Size Pickup",7.60f); // Based on Ford Ranger
+        vehicleEfficiencies.put("Full-Size SUV", 13.07f); // Based on Chevrolet Tahoe
+        vehicleEfficiencies.put("Smaller SUV/CUV", 13.84f); // Based on GMC Acadia
+        vehicleEfficiencies.put("Hatchback", 7.47f); // Based on Kia Rondo
+        vehicleEfficiencies.put("Minivan", 11.76f); // Based on Dodge Grand Caravan
+        vehicleEfficiencies.put("Mid-size Car", 8.71f); // Based on Honda Accord 4-cyl
+        vehicleEfficiencies.put("Compact Car", 7.35f); // Based on Toyota Corolla
+
+        for (HashMap.Entry<String, Float> entry : vehicleEfficiencies.entrySet()) {
+            ContentValues vehicleValues = new ContentValues();
+
+            // populate vehicle database
+            vehicleValues.put(KEY_VEHICLE_CLASS, entry.getKey());
+            vehicleValues.put(KEY_VEHICLE_EFFICIENCY, entry.getValue());
+
+            db.insert(VEHICLE_TABLE_NAME, null, vehicleValues);
+        }
     }
 
     /*
@@ -53,7 +87,7 @@ public class DBHelper extends SQLiteOpenHelper {
     @Override
     public void onUpgrade (SQLiteDatabase db, int oldVersion, int newVersion) {
         if (oldVersion != newVersion) {
-            String dropTable = "DROP TABLE IF EXISTS " + TABLE_NAME;
+            String dropTable = "DROP TABLE IF EXISTS " + TABLE_NAME + ", " + VEHICLE_TABLE_NAME;
             db.execSQL(dropTable);
             onCreate(db);
             DATABASE_VERSION = newVersion;
@@ -75,6 +109,23 @@ public class DBHelper extends SQLiteOpenHelper {
         result.close();
 
         return id + 1;
+    }
+
+    public float getEfficiency(String vehicleClass){
+        String select = KEY_VEHICLE_EFFICIENCY;
+        String from = VEHICLE_TABLE_NAME;
+        String[] whereArgs = new String[]{};
+        String groupBy = "";
+        String groupByArgs = "";
+        String orderBy = KEY_VEHICLE_EFFICIENCY;
+
+        SQLiteDatabase db = this.getReadableDatabase();
+
+        Cursor cursor = db.query(from, new String[]{select}, vehicleClass, whereArgs, groupBy, groupByArgs, orderBy);
+        cursor.moveToFirst();
+        cursor.close();
+
+        return cursor.getFloat(0);
     }
 
     /*

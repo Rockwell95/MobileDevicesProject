@@ -30,7 +30,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     private GoogleMap mMap;
     private Marker prevMarker;
-    public static final int REQUEST_DIRECTIONS = 0x4870a;
+    public static final int REQUEST_DIRECTIONS = 0x4870;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

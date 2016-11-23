@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:2:1-34:12
+ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:2:1-35:12
 	package
 		ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:3:5-53
 		INJECTED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml
@@ -21,8 +21,25 @@ uses-permission#android.permission.ACCESS_FINE_LOCATION
 ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:6:5-79
 	android:name
 		ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:7:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:10.0.0] /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.0.0/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-analytics:10.0.0] /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/10.0.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.0.0] /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/10.0.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:10.0.0] /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/10.0.0/AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-iid:10.0.0] /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.0.0] /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-crash:10.0.0] /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/10.0.0/AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.0.0] /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.0] /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-gcm:10.0.0] /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.0.0/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:10.0.0] /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/10.0.0/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.0.0] /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/10.0.0/AndroidManifest.xml:20:5-66
+MERGED from [com.akexorcist:googledirectionlibrary:1.0.4] /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.akexorcist/googledirectionlibrary/1.0.4/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:7:22-64
 application
-ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:8:5-32:19
+ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:9:5-33:19
 MERGED from [com.google.android.gms:play-services:10.0.0] /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/10.0.0/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-ads-lite:10.0.0] /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.0.0/AndroidManifest.xml:23:5-27:19
 MERGED from [com.google.android.gms:play-services-basement:10.0.0] /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.0/AndroidManifest.xml:19:5-21:19
@@ -77,53 +94,53 @@ MERGED from [com.google.android.gms:play-services-wearable:10.0.0] /Users/uoitmi
 MERGED from [com.android.support:design:25.0.1] /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:transition:25.0.1] /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.1/AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:11:9-41
+		ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:12:9-41
 	android:supportsRtl
-		ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:13:9-35
 	android:allowBackup
-		ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:9:9-35
+		ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:10:9-35
 	android:icon
-		ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:10:9-43
+		ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:11:9-43
 	android:theme
-		ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:13:9-40
+		ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:14:9-40
 activity#com.example.devin.mobiledevicesproject.MainActivity
-ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:14:9-20:20
+ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:14:19-47
+		ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:15:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:15:13-19:29
+ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:16:17-69
+ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:16:25-66
+		ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:18:17-77
+ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:18:27-74
+		ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:19:27-74
 activity#com.example.devin.mobiledevicesproject.SignupActivity
-ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:21:9-52
+ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:22:9-52
 	android:name
-		ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:21:19-49
+		ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:22:19-49
 activity#com.example.devin.mobiledevicesproject.LoginActivity
-ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:22:9-51
+ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:23:9-51
 	android:name
-		ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:22:19-48
+		ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:23:19-48
 meta-data#com.google.android.geo.API_KEY
-ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:24:9-26:55
+ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:25:9-27:55
 	android:value
-		ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:26:13-52
+		ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:27:13-52
 	android:name
-		ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:25:13-58
+		ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:26:13-58
 activity#com.example.devin.mobiledevicesproject.MapsActivity
-ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:28:9-30:59
+ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:29:9-31:59
 	android:label
-		ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:30:13-56
+		ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:31:13-56
 	android:name
-		ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:29:13-41
+		ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:30:13-41
 activity#com.example.devin.mobiledevicesproject.Directions
-ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:31:9-57
+ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:32:9-57
 	android:name
-		ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:31:19-45
+		ADDED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:32:19-45
 uses-sdk
 INJECTED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.google.android.gms:play-services:10.0.0] /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/10.0.0/AndroidManifest.xml:4:5-42
@@ -197,22 +214,6 @@ MERGED from [com.akexorcist:googledirectionlibrary:1.0.4] /Users/uoitmindmate/Do
 	android:minSdkVersion
 		INJECTED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml
-uses-permission#android.permission.INTERNET
-ADDED from [com.google.android.gms:play-services-ads-lite:10.0.0] /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.0.0/AndroidManifest.xml:19:5-66
-MERGED from [com.google.android.gms:play-services-analytics:10.0.0] /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/10.0.0/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-analytics-impl:10.0.0] /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/10.0.0/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-appinvite:10.0.0] /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/10.0.0/AndroidManifest.xml:18:5-66
-MERGED from [com.google.firebase:firebase-iid:10.0.0] /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.0/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-maps:10.0.0] /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.0/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-crash:10.0.0] /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/10.0.0/AndroidManifest.xml:18:5-66
-MERGED from [com.google.firebase:firebase-analytics:10.0.0] /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.0/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.0] /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.0/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-gcm:10.0.0] /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.0.0/AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-iid:10.0.0] /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/10.0.0/AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-tagmanager-api:10.0.0] /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/10.0.0/AndroidManifest.xml:20:5-66
-MERGED from [com.akexorcist:googledirectionlibrary:1.0.4] /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.akexorcist/googledirectionlibrary/1.0.4/AndroidManifest.xml:11:5-67
-	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.0] /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.0.0/AndroidManifest.xml:19:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-ads-lite:10.0.0] /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.0.0/AndroidManifest.xml:20:5-78
 MERGED from [com.google.android.gms:play-services-analytics:10.0.0] /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/10.0.0/AndroidManifest.xml:21:5-78
@@ -378,11 +379,11 @@ ADDED from [com.google.firebase:firebase-common:10.0.0] /Users/uoitmindmate/Docu
 	android:name
 		ADDED from [com.google.firebase:firebase-common:10.0.0] /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.0/AndroidManifest.xml:6:79-143
 android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:2:1-34:12 reason: com.google.android.gms.location has a targetSdkVersion < 4
+IMPLIED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:2:1-35:12 reason: com.google.android.gms.location has a targetSdkVersion < 4
 android:uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:2:1-34:12 reason: com.google.android.gms.location has a targetSdkVersion < 4
+IMPLIED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:2:1-35:12 reason: com.google.android.gms.location has a targetSdkVersion < 4
 android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:2:1-34:12 reason: com.google.android.gms.location requested WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/AndroidManifest.xml:2:1-35:12 reason: com.google.android.gms.location requested WRITE_EXTERNAL_STORAGE
 uses-feature#0x00020000
 ADDED from [com.google.android.gms:play-services-maps:10.0.0] /Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.0/AndroidManifest.xml:21:5-77
 	android:glEsVersion

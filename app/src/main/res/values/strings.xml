@@ -36,4 +36,10 @@
 
     <!-- Directions Activity -->
     <string name="get_directions">Get Directions</string>
+    <string name="price_of_gas">Price of Gas</string>
+    <string name="disclaimer">Based on most recent cheapest price at your location, you may enter your own if you like.</string>
+    <string name="label_price_of_gas">Price of Gas</string>
+    <string name="starting_point">Starting Point</string>
+    <string name="destination">Destination</string>
+    <string name="vehicle_class">Vehicle Class (select one)</string>
 </resources>
