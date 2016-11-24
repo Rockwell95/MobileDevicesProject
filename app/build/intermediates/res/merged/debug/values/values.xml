@@ -84,6 +84,7 @@
     <color name="cast_libraries_material_featurehighlight_text_body_color">#FFFFFFFF</color>
     <color name="cast_libraries_material_featurehighlight_text_header_color">#FFFFFFFF</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="colorFind">#4a87ee</color>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorProceed">#66cc33</color>
@@ -1019,6 +1020,7 @@
     <string name="errorEmailTaken">Email is already in use</string>
     <string name="errorMatchingPassword">Password does not match</string>
     <string name="errorPasswordInvalid">Password must be atlease 8 characters long and must contain atleast 1 lowercase alphanumeric character, 1 uppercase alphanumeric character, and 1 number</string>
+    <string name="find_routes">Plan Route</string>
     <string name="get_directions">Get Directions</string>
     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
         AIzaSyDzFwlffLplZKK22mxdIqUBj5M_bUSwgZI

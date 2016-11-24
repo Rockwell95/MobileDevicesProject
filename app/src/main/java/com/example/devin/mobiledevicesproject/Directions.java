@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
@@ -33,6 +34,8 @@ import org.jsoup.select.Elements;
 
 import java.io.IOException;
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.Locale;
 
 public class Directions extends AppCompatActivity implements PriceListener{
 
@@ -41,12 +44,14 @@ public class Directions extends AppCompatActivity implements PriceListener{
     private boolean fromFilled = false;
     private boolean toFilled = false;
 
-    private double tripDistance = 0;
+    private double trip1Distance = 0;
+    private double trip2Distance = 0;
+    private double trip3Distance = 0;
 
-    public static final String COST_OF_TRIP = "com.example.devin.mobiledevicesproject.COST";
-    public static final String DISTANCE_OF_TRIP = "com.example.devin.mobiledevicesproject.DIST";
-//    public static final String DIRECTIONS_FOR_TRIP = "com.example.devin.mobiledevicesproject.DIR";
-//    public static final String TRIP_RAW_DATA = "com.example.devin.mobiledevicesproject.RAW";
+    public static final String UNITS_BOOLEAN = "com.example.devin.mobiledevicesproject.UNIT";
+    public static final String VEHICLE_CLASS = "com.example.devin.mobiledevicesproject.CLASS";
+    public static final String FUEL_COST = "com.example.devin.mobiledevicesproject.FUEL";
+
 
     public static Direction globalDirs;
 
@@ -116,7 +121,6 @@ public class Directions extends AppCompatActivity implements PriceListener{
         DownloadPriceTask task = new DownloadPriceTask(this);
         task.execute("STUB");
         Log.i("DirectionsCreation", "Getting price");
-
     }
 
     @Override
@@ -129,6 +133,7 @@ public class Directions extends AppCompatActivity implements PriceListener{
         GoogleDirection.withServerKey("AIzaSyDzFwlffLplZKK22mxdIqUBj5M_bUSwgZI")
                 .from(from)
                 .to(to)
+                .alternativeRoute(true)
                 .unit(Unit.METRIC)
                 .avoid(AvoidType.FERRIES)
                 .avoid(AvoidType.TOLLS)
@@ -139,66 +144,41 @@ public class Directions extends AppCompatActivity implements PriceListener{
                         if(direction.isOK()){
                             //TODO: Handle okay directions
                             Log.i("Directions", rawBody);
-                            Route route = direction.getRouteList().get(0);
-                            Leg leg = route.getLegList().get(0);
-                            Info distanceInfo = leg.getDistance();
-                            Log.i("Distance", distanceInfo.getValue());
-                            tripDistance = Double.parseDouble(distanceInfo.getValue());
-                            float cost = getCostOfTrip();
-                            Log.i("Cost","$" + String.format("%.2f", cost));
-                            sendDataToMap(direction, rawBody, cost, tripDistance);
+                            Spinner units = (Spinner)findViewById(R.id.units);
+                            String[] unitArray = getResources().getStringArray(R.array.units);
+                            boolean impUnits = false; //in metric
+                            if(units.getSelectedItem().toString().equals(unitArray[1])) {
+                                impUnits = true;
+                            }
+                            Spinner vClass = (Spinner)findViewById(R.id.vClass);
+                            String sVClass = vClass.getSelectedItem().toString();
+                            EditText price = (EditText)findViewById(R.id.priceOfGas);
+                            float gasPrice = Float.parseFloat(price.getText().toString());
+                            sendDataToMap(direction, impUnits, sVClass, gasPrice);
                         }
                         else {
                             //TODO: Handle Invalid directions
+
                         }
                     }
 
                     @Override
                     public void onDirectionFailure(Throwable t) {
-
+                        Log.i("Direction failure", "ERROR");
                     }
                 });
     }
 
-    private void sendDataToMap(Direction direction, String rawBody, float cost, double tripDistance) {
+    private void sendDataToMap(Direction direction, boolean isImperial, String vehicleClass, float gasPrice) {
         Intent i = new Intent(this, MainActivity.class);
         setResult(RESULT_OK, i);
         globalDirs = direction;
-//        i.putExtra(TRIP_RAW_DATA, rawBody);
-        i.putExtra(COST_OF_TRIP, cost);
-        i.putExtra(DISTANCE_OF_TRIP, tripDistance);
+        i.putExtra(UNITS_BOOLEAN, isImperial);
+        i.putExtra(VEHICLE_CLASS, vehicleClass);
+        i.putExtra(FUEL_COST, gasPrice);
         finish();
 
     }
-
-    public float getCostOfTrip(){
-        DBHelper dbHelper = new DBHelper(this);
-        Spinner vClass = (Spinner)findViewById(R.id.vClass);
-        String sVClass = vClass.getSelectedItem().toString();
-        float efficiency = dbHelper.getEfficiency(sVClass);
-
-        EditText price = (EditText)findViewById(R.id.priceOfGas);
-        float gasPrice = Float.parseFloat(price.getText().toString());
-
-        Spinner units = (Spinner)findViewById(R.id.units);
-        String[] unitArray = getResources().getStringArray(R.array.units);
-        if(units.getSelectedItem().toString().equals(unitArray[1])) {
-            gasPrice = convertToMetric(gasPrice);
-        }
-
-        float costPerKm = (gasPrice * efficiency) / 100; // in cents
-        float dollarCostPerKm = costPerKm/100; // in dollars
-        float distanceInKms = (float) (tripDistance/1000);
-
-        return dollarCostPerKm * distanceInKms;
-
-    }
-
-    private float convertToMetric(float priceInDollarPerGal) {
-        //For simplicity's sake, we're going to assume currency based on region that the user is in.
-        return 100*(priceInDollarPerGal*0.264172f);
-    }
-
 
 
     class DownloadPriceTask extends AsyncTask<String, Void, String>{

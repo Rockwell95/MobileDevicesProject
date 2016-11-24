@@ -83,8 +83,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnGetDirections"
-        android:onClick="getDirections"
         android:enabled="false"
-        style="@style/Widget.AppCompat.Button.Colored" />
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:onClick="getDirections"/>
 
 </LinearLayout>

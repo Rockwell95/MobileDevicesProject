@@ -1,42 +1,42 @@
 [
     {
-        "merged": "E:\\School\\MobileDevicesProject\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_default.xml",
-        "source": "E:\\School\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\color-v23\\abc_tint_default.xml"
+        "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/color-v23/abc_btn_colored_borderless_text_material.xml"
     },
     {
-        "merged": "E:\\School\\MobileDevicesProject\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
-        "source": "E:\\School\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\color-v23\\abc_color_highlight_material.xml"
+        "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/color-v23/abc_tint_spinner.xml"
     },
     {
-        "merged": "E:\\School\\MobileDevicesProject\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_edittext.xml",
-        "source": "E:\\School\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\color-v23\\abc_tint_edittext.xml"
+        "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
+        "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/res/color-v23/design_tint_password_toggle.xml"
     },
     {
-        "merged": "E:\\School\\MobileDevicesProject\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
-        "source": "E:\\School\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
+        "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/color-v23/abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "E:\\School\\MobileDevicesProject\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
-        "source": "E:\\School\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\color-v23\\abc_tint_spinner.xml"
+        "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/color-v23/abc_tint_switch_thumb.xml"
     },
     {
-        "merged": "E:\\School\\MobileDevicesProject\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_track.xml",
-        "source": "E:\\School\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\color-v23\\abc_tint_switch_track.xml"
+        "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/color-v23/abc_tint_edittext.xml"
     },
     {
-        "merged": "E:\\School\\MobileDevicesProject\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_btn_checkable.xml",
-        "source": "E:\\School\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\color-v23\\abc_tint_btn_checkable.xml"
+        "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/color-v23/abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "E:\\School\\MobileDevicesProject\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\design_tint_password_toggle.xml",
-        "source": "E:\\School\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\color-v23\\design_tint_password_toggle.xml"
+        "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/color-v23/abc_tint_switch_track.xml"
     },
     {
-        "merged": "E:\\School\\MobileDevicesProject\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_thumb.xml",
-        "source": "E:\\School\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\color-v23\\abc_tint_switch_thumb.xml"
+        "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/color-v23/abc_tint_default.xml"
     },
     {
-        "merged": "E:\\School\\MobileDevicesProject\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_seek_thumb.xml",
-        "source": "E:\\School\\MobileDevicesProject\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\color-v23\\abc_tint_seek_thumb.xml"
+        "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/color-v23/abc_color_highlight_material.xml"
     }
 ]
