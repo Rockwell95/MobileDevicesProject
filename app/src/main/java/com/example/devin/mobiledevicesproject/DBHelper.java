@@ -25,7 +25,7 @@ public class DBHelper extends SQLiteOpenHelper {
     private static final String KEY_USER_BIRTHDATE = "userBirthdate";
 
     //vehicle key information
-    private static final String KEY_VEHICLE_CLASS = "class";
+    private static final String KEY_VEHICLE_CLASS = "vClass";
     private static final String KEY_VEHICLE_EFFICIENCY = "efficiencyMetric";
 
     public final int CODE_SUCCESS = 0;
@@ -53,8 +53,8 @@ public class DBHelper extends SQLiteOpenHelper {
                             ")";
 
         String createVehicleDataBase = "CREATE TABLE " + VEHICLE_TABLE_NAME + " (" +
-                            KEY_VEHICLE_CLASS + "VARCHAR(100) PRIMARY KEY NOT NULL, " +
-                            KEY_VEHICLE_EFFICIENCY + "REAL" +
+                            KEY_VEHICLE_CLASS + " VARCHAR(100) PRIMARY KEY NOT NULL, " +
+                            KEY_VEHICLE_EFFICIENCY + " REAL " +
                             ")";
 
         db.execSQL(createTable);
@@ -114,18 +114,20 @@ public class DBHelper extends SQLiteOpenHelper {
     public float getEfficiency(String vehicleClass){
         String select = KEY_VEHICLE_EFFICIENCY;
         String from = VEHICLE_TABLE_NAME;
-        String[] whereArgs = new String[]{};
+        String where = "vClass=?";
+        String[] whereArgs = new String[]{vehicleClass};
         String groupBy = "";
         String groupByArgs = "";
         String orderBy = KEY_VEHICLE_EFFICIENCY;
 
         SQLiteDatabase db = this.getReadableDatabase();
 
-        Cursor cursor = db.query(from, new String[]{select}, vehicleClass, whereArgs, groupBy, groupByArgs, orderBy);
+        Cursor cursor = db.query(from, new String[]{select}, where, whereArgs, groupBy, groupByArgs, orderBy);
         cursor.moveToFirst();
+        float eff = cursor.getFloat(0);
         cursor.close();
 
-        return cursor.getFloat(0);
+        return eff;
     }
 
     /*

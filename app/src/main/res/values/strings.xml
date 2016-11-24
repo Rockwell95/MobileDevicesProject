@@ -27,6 +27,7 @@
     <!-- LoginActivity strings -->
     <string name="editLoginEmail">Enter your e-mail</string>
     <string name="editLoginPassword">Enter your password</string>
+    <string name="disclaimer_login">NOTE: To get live gas price updates, please go to http://gasbuddy.com/ and allow them access to your location, otherwise the gas prices in this app will be defaulted to 0 cents/L</string>
 
     <string name="btnLogin">Login</string>
     <string name="btnSignup">Signup</string>
@@ -42,4 +43,7 @@
     <string name="starting_point">Starting Point</string>
     <string name="destination">Destination</string>
     <string name="vehicle_class">Vehicle Class (select one)</string>
+    <string name="no_trip_planned_0_00">No Trip Planned ($0.00)</string>
+    <string name="_0_km">0 km</string>
+    <string name="direction_title">Get Directions</string>
 </resources>

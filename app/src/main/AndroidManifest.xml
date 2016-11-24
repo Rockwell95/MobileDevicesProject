@@ -29,7 +29,8 @@
         <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps" />
-        <activity android:name=".Directions"></activity>
+        <activity android:name=".Directions"
+            android:label="@string/direction_title"/>
     </application>
 
 </manifest>

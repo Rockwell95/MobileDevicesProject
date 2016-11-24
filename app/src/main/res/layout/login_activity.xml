@@ -40,4 +40,12 @@
         android:text="@string/btnSignup"
         android:onClick="signup"/>
 
+    <TextView
+        android:text="@string/disclaimer_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnLogin"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/dislaimer" />
+
 </RelativeLayout>

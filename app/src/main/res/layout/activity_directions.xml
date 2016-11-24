@@ -22,7 +22,7 @@
         android:id="@+id/fromSearch"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"/>
+        android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment" />
 
     <TextView
         android:text="@string/destination"
@@ -84,6 +84,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/btnGetDirections"
         android:onClick="getDirections"
+        android:enabled="false"
         style="@style/Widget.AppCompat.Button.Colored" />
 
 </LinearLayout>

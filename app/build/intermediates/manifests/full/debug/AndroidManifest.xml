@@ -52,7 +52,9 @@
         <activity
             android:name="com.example.devin.mobiledevicesproject.MapsActivity"
             android:label="@string/title_activity_maps" />
-        <activity android:name="com.example.devin.mobiledevicesproject.Directions" />
+        <activity
+            android:name="com.example.devin.mobiledevicesproject.Directions"
+            android:label="@string/direction_title" />
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"

@@ -891,6 +891,7 @@
     <integer name="mr_controller_volume_group_list_fade_in_duration_ms">400</integer>
     <integer name="mr_controller_volume_group_list_fade_out_duration_ms">200</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
+    <string name="_0_km">0 km</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
     <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
@@ -997,7 +998,9 @@
     <string name="debug_menu_troubleshooting">Troubleshooting</string>
     <string name="decline">Decline</string>
     <string name="destination">Destination</string>
+    <string name="direction_title">Get Directions</string>
     <string name="disclaimer">Based on most recent cheapest price at your location, you may enter your own if you like.</string>
+    <string name="disclaimer_login">NOTE: To get live gas price updates, please go to http://gasbuddy.com/ and allow them access to your location, otherwise the gas prices in this app will be defaulted to 0 cents/L</string>
     <string name="editLoginEmail">Enter your e-mail</string>
     <string name="editLoginPassword">Enter your password</string>
     <string name="editUserBirthdateDay">DD</string>
@@ -1037,6 +1040,7 @@
     <string name="mr_controller_stop">Stop casting</string>
     <string name="mr_system_route_name">System</string>
     <string name="mr_user_route_category_name">Devices</string>
+    <string name="no_trip_planned_0_00">No Trip Planned ($0.00)</string>
     <string name="place_autocomplete_clear_button">Clear search</string>
     <string name="place_autocomplete_search_hint">Search</string>
     <string name="price_of_gas">Price of Gas</string>
