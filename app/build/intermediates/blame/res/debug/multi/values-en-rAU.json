@@ -714,13 +714,13 @@
                     "endOffset": 3751
                 },
                 "from": {
-                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/10.0.0/res/values-en-rAU/values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.6.0/res/values-en-rAU/values.xml",
                     "position": {
                         "startLine": 4,
-                        "startColumn": 0,
-                        "startOffset": 244,
-                        "endColumn": 99,
-                        "endOffset": 343
+                        "startColumn": 4,
+                        "startOffset": 304,
+                        "endColumn": 103,
+                        "endOffset": 403
                     }
                 }
             }

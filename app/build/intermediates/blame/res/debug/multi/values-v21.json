@@ -2018,30 +2018,28 @@
                     "startLine": 279,
                     "startColumn": 4,
                     "startOffset": 20451,
-                    "endLine": 280,
-                    "endColumn": 8,
-                    "endOffset": 20576
+                    "endColumn": 121,
+                    "endOffset": 20568
                 },
                 "from": {
-                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/10.0.0/res/values-v21/values.xml",
+                    "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.6.0/res/values-v21/values.xml",
                     "position": {
                         "startLine": 4,
-                        "startColumn": 0,
-                        "startOffset": 172,
-                        "endLine": 5,
-                        "endColumn": 8,
-                        "endOffset": 297
+                        "startColumn": 4,
+                        "startOffset": 232,
+                        "endColumn": 121,
+                        "endOffset": 349
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 281,
+                    "startLine": 280,
                     "startColumn": 4,
-                    "startOffset": 20581,
-                    "endLine": 283,
+                    "startOffset": 20573,
+                    "endLine": 282,
                     "endColumn": 12,
-                    "endOffset": 20751
+                    "endOffset": 20743
                 },
                 "from": {
                     "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-v21/values-v21.xml",
@@ -2057,12 +2055,12 @@
             },
             {
                 "to": {
-                    "startLine": 284,
+                    "startLine": 283,
                     "startColumn": 4,
-                    "startOffset": 20756,
-                    "endLine": 288,
+                    "startOffset": 20748,
+                    "endLine": 287,
                     "endColumn": 12,
-                    "endOffset": 21092
+                    "endOffset": 21084
                 },
                 "from": {
                     "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/values-v21/values-v21.xml",
@@ -2078,12 +2076,12 @@
             },
             {
                 "to": {
-                    "startLine": 289,
+                    "startLine": 288,
                     "startColumn": 4,
-                    "startOffset": 21097,
-                    "endLine": 291,
+                    "startOffset": 21089,
+                    "endLine": 290,
                     "endColumn": 12,
-                    "endOffset": 21286
+                    "endOffset": 21278
                 },
                 "from": {
                     "file": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/res/values-v21/values-v21.xml",

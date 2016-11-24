@@ -53,7 +53,7 @@ public class DBHelper extends SQLiteOpenHelper {
                             ")";
 
         String createVehicleDataBase = "CREATE TABLE " + VEHICLE_TABLE_NAME + " (" +
-                            KEY_VEHICLE_CLASS + " VARCHAR(100) PRIMARY KEY NOT NULL, " +
+                            KEY_VEHICLE_CLASS + " TEXT PRIMARY KEY, " +
                             KEY_VEHICLE_EFFICIENCY + " REAL " +
                             ")";
 
@@ -126,6 +126,7 @@ public class DBHelper extends SQLiteOpenHelper {
         cursor.moveToFirst();
         float eff = cursor.getFloat(0);
         cursor.close();
+        db.close();
 
         return eff;
     }

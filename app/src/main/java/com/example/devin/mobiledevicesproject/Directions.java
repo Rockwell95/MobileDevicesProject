@@ -177,9 +177,7 @@ public class Directions extends AppCompatActivity implements PriceListener{
         i.putExtra(VEHICLE_CLASS, vehicleClass);
         i.putExtra(FUEL_COST, gasPrice);
         finish();
-
     }
-
 
     class DownloadPriceTask extends AsyncTask<String, Void, String>{
 
