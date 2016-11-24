@@ -161,14 +161,13 @@ public class Directions extends AppCompatActivity implements PriceListener{
     }
 
     private void sendDataToMap(Direction direction, String rawBody, float cost, double tripDistance) {
-        Intent i = new Intent(this, MainActivity.class);
+        Intent i = new Intent(this, MapsActivity.class);
         setResult(RESULT_OK, i);
         globalDirs = direction;
 //        i.putExtra(TRIP_RAW_DATA, rawBody);
         i.putExtra(COST_OF_TRIP, cost);
         i.putExtra(DISTANCE_OF_TRIP, tripDistance);
         finish();
-
     }
 
     public float getCostOfTrip(){
@@ -191,7 +190,6 @@ public class Directions extends AppCompatActivity implements PriceListener{
         float distanceInKms = (float) (tripDistance/1000);
 
         return dollarCostPerKm * distanceInKms;
-
     }
 
     private float convertToMetric(float priceInDollarPerGal) {

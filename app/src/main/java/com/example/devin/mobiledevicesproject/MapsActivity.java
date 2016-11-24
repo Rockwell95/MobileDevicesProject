@@ -1,22 +1,18 @@
 package com.example.devin.mobiledevicesproject;
 
-import android.*;
 import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
-import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
-import com.akexorcist.googledirection.model.Direction;
 import com.akexorcist.googledirection.model.Leg;
 import com.akexorcist.googledirection.model.Route;
 import com.akexorcist.googledirection.model.Step;
@@ -38,8 +34,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-import static android.R.attr.direction;
-
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
@@ -57,7 +51,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mapFragment.getMapAsync(this);
 
         // obtain the search bar
-        PlaceAutocompleteFragment autocompleteFragment = (PlaceAutocompleteFragment)
+        /*PlaceAutocompleteFragment autocompleteFragment = (PlaceAutocompleteFragment)
                 getFragmentManager().findFragmentById(R.id.searchBar);
 
         autocompleteFragment.setOnPlaceSelectedListener(new PlaceSelectionListener() {
@@ -79,7 +73,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             public void onError(Status status) {
                 // TODO: handle error
             }
-        });
+        });*/
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.floatingActionButton);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -93,7 +87,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     private void startDirectionsActivity(View view) {
         Intent i = new Intent(this, Directions.class);
-       mMap.clear();
+        mMap.clear();
         startActivityForResult(i, REQUEST_DIRECTIONS);
     }
 
@@ -118,7 +112,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
     private void drawOnMap() {
-
         Route route = Directions.globalDirs.getRouteList().get(0);
         Leg leg = route.getLegList().get(0);
 
@@ -128,10 +121,14 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         List<Step> stepList = leg.getStepList();
         Step startStep = stepList.get(0);
+        Step endStep = stepList.get(stepList.size() - 1);
+
         LatLng start = startStep.getStartLocation().getCoordination();
+        LatLng end = endStep.getEndLocation().getCoordination();
 
         mMap.addMarker(new MarkerOptions().position(start).title("Starting Location"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(start, 5.5f));
+        mMap.addMarker(new MarkerOptions().position(end).title("Ending Location"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(start, 11.5f));
     }
 
     /**
@@ -156,11 +153,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                     new String[]{Manifest.permission.ACCESS_FINE_LOCATION},
                     1);
         }
-
-        // Add a marker in Sydney and move the camera
-        //LatLng sydney = new LatLng(-34, 151);
-        //mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-        //mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
 
     @Override
