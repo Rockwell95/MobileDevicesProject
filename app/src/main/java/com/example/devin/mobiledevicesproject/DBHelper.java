@@ -5,12 +5,11 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import android.database.sqlite.SQLiteStatement;
 import android.util.Log;
 
 import java.util.HashMap;
 
-public class DBHelper extends SQLiteOpenHelper {
+class DBHelper extends SQLiteOpenHelper {
     private static final String TABLE_NAME = "Users";
     private static final String VEHICLE_TABLE_NAME = "Vehicles";
     private static final String DATABASE_NAME = "Users";
@@ -28,13 +27,13 @@ public class DBHelper extends SQLiteOpenHelper {
     private static final String KEY_VEHICLE_CLASS = "vClass";
     private static final String KEY_VEHICLE_EFFICIENCY = "efficiencyMetric";
 
-    public final int CODE_SUCCESS = 0;
-    public final int CODE_INVALID_EMAIL = 1;
-    public final int CODE_EMAIL_TAKEN = 2;
-    public final int CODE_INVALID_PASSWORD = 3;
-    public final int CODE_INVALID_BIRTHDATE = 4;
+    final int CODE_SUCCESS = 0;
+    final int CODE_INVALID_EMAIL = 1;
+    final int CODE_EMAIL_TAKEN = 2;
+    final int CODE_INVALID_PASSWORD = 3;
+    final int CODE_INVALID_BIRTHDATE = 4;
 
-    public DBHelper (Context context) {
+    DBHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
 
@@ -42,27 +41,27 @@ public class DBHelper extends SQLiteOpenHelper {
      * Creates a new database table
      */
     @Override
-    public void onCreate (SQLiteDatabase db) {
+    public void onCreate(SQLiteDatabase db) {
         String createTable = "CREATE TABLE " + TABLE_NAME + " (" +
-                            KEY_USER_ID + " INTEGER PRIMARY KEY, " +
-                            KEY_USER_FIRSTNAME + " TEXT, " +
-                            KEY_USER_LASTNAME + " TEXT, " +
-                            KEY_USER_EMAIL + " TEXT NOT NULL UNIQUE, " +
-                            KEY_USER_PASSWORD + " TEXT NOT NULL, " +
-                            KEY_USER_BIRTHDATE + " TEXT NOT NULL " +
-                            ")";
+                KEY_USER_ID + " INTEGER PRIMARY KEY, " +
+                KEY_USER_FIRSTNAME + " TEXT, " +
+                KEY_USER_LASTNAME + " TEXT, " +
+                KEY_USER_EMAIL + " TEXT NOT NULL UNIQUE, " +
+                KEY_USER_PASSWORD + " TEXT NOT NULL, " +
+                KEY_USER_BIRTHDATE + " TEXT NOT NULL " +
+                ")";
 
         String createVehicleDataBase = "CREATE TABLE " + VEHICLE_TABLE_NAME + " (" +
-                            KEY_VEHICLE_CLASS + " TEXT PRIMARY KEY, " +
-                            KEY_VEHICLE_EFFICIENCY + " REAL " +
-                            ")";
+                KEY_VEHICLE_CLASS + " TEXT PRIMARY KEY, " +
+                KEY_VEHICLE_EFFICIENCY + " REAL " +
+                ")";
 
         db.execSQL(createTable);
         db.execSQL(createVehicleDataBase);
 
         HashMap<String, Float> vehicleEfficiencies = new HashMap<>();
-        vehicleEfficiencies.put("Full Size Pickup",10.69f); // Based on Ford F-150
-        vehicleEfficiencies.put("Mid-Size Pickup",7.60f); // Based on Ford Ranger
+        vehicleEfficiencies.put("Full Size Pickup", 10.69f); // Based on Ford F-150
+        vehicleEfficiencies.put("Mid-Size Pickup", 7.60f); // Based on Ford Ranger
         vehicleEfficiencies.put("Full-Size SUV", 13.07f); // Based on Chevrolet Tahoe
         vehicleEfficiencies.put("Smaller SUV/CUV", 13.84f); // Based on GMC Acadia
         vehicleEfficiencies.put("Hatchback", 7.47f); // Based on Kia Rondo
@@ -85,7 +84,7 @@ public class DBHelper extends SQLiteOpenHelper {
      * Updates the database table if changes are detected
      */
     @Override
-    public void onUpgrade (SQLiteDatabase db, int oldVersion, int newVersion) {
+    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         if (oldVersion != newVersion) {
             String dropTable = "DROP TABLE IF EXISTS " + TABLE_NAME + ", " + VEHICLE_TABLE_NAME;
             db.execSQL(dropTable);
@@ -98,7 +97,7 @@ public class DBHelper extends SQLiteOpenHelper {
     * Returns a new, unique ID by grabbing the largest ID from the database and incrementing it
     * by 1
     */
-    public int getNextID() {
+    private int getNextID() {
         String maxID = "SELECT MAX(" + KEY_USER_ID + ") FROM " + TABLE_NAME;
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor result = db.rawQuery(maxID, null);
@@ -111,7 +110,7 @@ public class DBHelper extends SQLiteOpenHelper {
         return id + 1;
     }
 
-    public float getEfficiency(String vehicleClass){
+    float getEfficiency(String vehicleClass) {
         String select = KEY_VEHICLE_EFFICIENCY;
         String from = VEHICLE_TABLE_NAME;
         String where = "vClass=?";
@@ -135,7 +134,7 @@ public class DBHelper extends SQLiteOpenHelper {
      * Takes a user and attempts to add its attributes to the database. If name or email is
      * not unique, returns false. Otherwise, returns true.
      */
-    public int addUser (User user) {
+    public int addUser(User user) {
         // extract data from user
         String firstName = user.getFirstName();
         String lastName = user.getLastName();
@@ -156,7 +155,7 @@ public class DBHelper extends SQLiteOpenHelper {
 
         // query database for input email
         String queryEmail = "SELECT " + KEY_USER_EMAIL +
-                            " FROM " + TABLE_NAME;
+                " FROM " + TABLE_NAME;
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor results = db.rawQuery(queryEmail, null);
         results.moveToFirst();
@@ -191,7 +190,7 @@ public class DBHelper extends SQLiteOpenHelper {
     }
 
     // TODO: attempt to login with supplied information and return user data if it is correct
-    public User login (String userEmail, String userPassword) {
+    User login(String userEmail, String userPassword) {
         User user = null;
         SQLiteDatabase db = this.getReadableDatabase();
         RegexHelper rh = new RegexHelper(); // new instance of RegexHelper

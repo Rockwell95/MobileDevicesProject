@@ -1,7 +1,7 @@
 package com.example.devin.mobiledevicesproject;
 
 // TODO: possible hashing of password?
-public class User {
+class User {
     private String firstName;
     private String lastName;
     private String email;
@@ -25,7 +25,7 @@ public class User {
     * Creates a new User. Takes five Strings: firstName, lastName,  email, password, and birthdate and
     * returns a new User with those attributes.
     */
-    public User (String firstName, String lastName, String email, String password, String birthdate) {
+    User(String firstName, String lastName, String email, String password, String birthdate) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
@@ -33,9 +33,9 @@ public class User {
         this.birthdate = birthdate;
     }
 
-    public String getFirstName () { return this.firstName; }
-    public String getLastName () { return this.lastName; }
-    public String getEmail () { return this.email; }
-    public String getPassword () { return this.password; }
-    public String getBirthdate () { return this.birthdate; }
+    String getFirstName() { return this.firstName; }
+    String getLastName() { return this.lastName; }
+    String getEmail() { return this.email; }
+    String getPassword() { return this.password; }
+    String getBirthdate() { return this.birthdate; }
 }
