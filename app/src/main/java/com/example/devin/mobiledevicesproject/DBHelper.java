@@ -22,6 +22,8 @@ class DBHelper extends SQLiteOpenHelper {
     private static final String KEY_USER_EMAIL = "userEmail";
     private static final String KEY_USER_PASSWORD = "userPassword"; // TODO: password encryption?
     private static final String KEY_USER_BIRTHDATE = "userBirthdate";
+    private static final String KEY_USER_LICENSE = "userLicense";
+    private static final String KEY_USER_GENDER = "userGender";
 
     //vehicle key information
     private static final String KEY_VEHICLE_CLASS = "vClass";
@@ -48,7 +50,9 @@ class DBHelper extends SQLiteOpenHelper {
                 KEY_USER_LASTNAME + " TEXT, " +
                 KEY_USER_EMAIL + " TEXT NOT NULL UNIQUE, " +
                 KEY_USER_PASSWORD + " TEXT NOT NULL, " +
-                KEY_USER_BIRTHDATE + " TEXT NOT NULL " +
+                KEY_USER_BIRTHDATE + " TEXT NOT NULL, " +
+                KEY_USER_LICENSE + " TEXT NOT NULL, " +
+                KEY_USER_GENDER + " TEXT NOT NULL " +
                 ")";
 
         String createVehicleDataBase = "CREATE TABLE " + VEHICLE_TABLE_NAME + " (" +
@@ -134,13 +138,15 @@ class DBHelper extends SQLiteOpenHelper {
      * Takes a user and attempts to add its attributes to the database. If name or email is
      * not unique, returns false. Otherwise, returns true.
      */
-    public int addUser(User user) {
+    int addUser(User user) {
         // extract data from user
         String firstName = user.getFirstName();
         String lastName = user.getLastName();
         String email = user.getEmail();
         String password = user.getPassword();
         String birthdate = user.getBirthdate();
+        String license = user.getLicense();
+        String gender = user.getGender();
 
         // TODO: perform error checking on values
         RegexHelper rh = new RegexHelper(); // new instance of RegexHelper
@@ -182,6 +188,8 @@ class DBHelper extends SQLiteOpenHelper {
         values.put(KEY_USER_EMAIL, email);
         values.put(KEY_USER_PASSWORD, password);
         values.put(KEY_USER_BIRTHDATE, birthdate);
+        values.put(KEY_USER_LICENSE, license);
+        values.put(KEY_USER_GENDER, gender);
 
         db.insert(TABLE_NAME, null, values); // insert to database
 
@@ -202,7 +210,7 @@ class DBHelper extends SQLiteOpenHelper {
         // perform query for input email and password
         Cursor results = db.query(
                 TABLE_NAME,
-                new String[]{KEY_USER_ID, KEY_USER_FIRSTNAME, KEY_USER_LASTNAME, KEY_USER_EMAIL, KEY_USER_PASSWORD, KEY_USER_BIRTHDATE},
+                new String[]{KEY_USER_ID, KEY_USER_FIRSTNAME, KEY_USER_LASTNAME, KEY_USER_EMAIL, KEY_USER_PASSWORD, KEY_USER_BIRTHDATE, KEY_USER_LICENSE, KEY_USER_GENDER},
                 KEY_USER_EMAIL + " = ? AND " + KEY_USER_PASSWORD + " = ?",
                 new String[]{userEmail, userPassword},
                 null,
@@ -216,10 +224,12 @@ class DBHelper extends SQLiteOpenHelper {
             String email = results.getString(3);
             String password = results.getString(4);
             String birthdate = results.getString(5);
+            String license = results.getString(6);
+            String gender = results.getString(7);
 
-            Log.d("DBHelper", id + " " + firstName + " " + lastName + " " + email + " " + password + " " + birthdate);
+            Log.d("DBHelper", id + " " + firstName + " " + lastName + " " + email + " " + password + " " + birthdate + " " + license + " " + gender);
 
-            user = new User(firstName, lastName, email, password, birthdate);
+            user = new User(firstName, lastName, email, password, birthdate, license, gender);
         } else {
             Log.d("DBHelper", userEmail + " " + userPassword);
         }

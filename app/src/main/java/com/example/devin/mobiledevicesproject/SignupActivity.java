@@ -17,6 +17,8 @@ public class SignupActivity extends AppCompatActivity {
     EditText editUserBirthdateDay;
     EditText editUserBirthdateMonth;
     EditText editUserBirthdateYear;
+    EditText editLicenseClass;
+    EditText editGender;
     boolean[] errors;
 
     @Override
@@ -42,6 +44,8 @@ public class SignupActivity extends AppCompatActivity {
         editUserBirthdateDay = (EditText) findViewById(R.id.editUserBirthdateDay);
         editUserBirthdateMonth = (EditText) findViewById(R.id.editUserBirthdateMonth);
         editUserBirthdateYear = (EditText) findViewById(R.id.editUserBirthdateYear);
+        editLicenseClass = (EditText) findViewById(R.id.lGrade);
+        editGender = (EditText) findViewById(R.id.gender);
 
         // validates email
         editUserEmail.addTextChangedListener(new TextWatcher() {
@@ -165,10 +169,12 @@ public class SignupActivity extends AppCompatActivity {
         String day = editUserBirthdateDay.getText().toString();
         String month = editUserBirthdateMonth.getText().toString();
         String year = editUserBirthdateYear.getText().toString();
+        String license = editLicenseClass.getText().toString();
+        String gender = editGender.getText().toString();
 
         String birthdate = day + "/" + month + "/" + year;
 
-        User user = new User(firstName, lastName, email, password, birthdate);
+        User user = new User(firstName, lastName, email, password, birthdate, license, gender);
         DBHelper dbHelper = new DBHelper(this); // create new DBHelper
 
         int result = dbHelper.addUser(user);
