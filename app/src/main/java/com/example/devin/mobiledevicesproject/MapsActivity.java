@@ -181,6 +181,22 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             Log.i("Cost3","$" + String.format("%.2f", cost3));
         }
 
+        if (direction.getRouteList().size() >= 4) {
+            Route route4 = direction.getRouteList().get(3);
+            Leg leg4 = route4.getLegList().get(0);
+            Info distanceInfo4 = leg4.getDistance();
+            double dist4 = Double.parseDouble(distanceInfo4.getValue());
+            float cost4 = getCostOfTrip(dist4, isImperial, vClass, gasPrice);
+            String entry4 = "Route 4: $" + String.format(Locale.CANADA, "%.2f", cost4) + ", " + String.format(Locale.CANADA, "%.2f", dist4/1000) + " km";
+            routeArray.add(entry4);
+            ArrayList<Object> data4 = new ArrayList<>();
+            data4.add(route4);
+            data4.add(dist4);
+            data4.add(cost4);
+            routeHashMap.put(entry4, data4);
+            Log.i("Cost3","$" + String.format("%.2f", cost4));
+        }
+
         Spinner routeSpin = (Spinner)findViewById(R.id.routeOptions);
 
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, routeArray);
