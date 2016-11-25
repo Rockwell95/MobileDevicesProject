@@ -265,9 +265,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
     public void launchWeather(View view){
-        WebView webView = new WebView(this);
-        setContentView(webView);
-        webView.loadUrl("https://weather.gc.ca/city/pages/on-143_metric_e.html");
+        Intent i = new Intent(this, WeatherActivity.class);
+        startActivity(i);
     }
 
 

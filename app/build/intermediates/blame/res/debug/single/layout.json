@@ -160,6 +160,10 @@
         "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/notification_media_cancel_action.xml"
     },
     {
+        "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/layout/activity_weather.xml",
+        "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/src/main/res/layout/activity_weather.xml"
+    },
+    {
         "merged": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
         "source": "/Users/uoitmindmate/Documents/Fall 2016 Courses/SOFE 4870/MobileDevicesProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout/select_dialog_multichoice_material.xml"
     },
