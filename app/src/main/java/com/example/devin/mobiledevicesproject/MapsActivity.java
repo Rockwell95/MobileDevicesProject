@@ -4,6 +4,7 @@ import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
@@ -12,6 +13,7 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.view.View;
+import android.webkit.WebView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
@@ -253,6 +255,19 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private float convertToMetric(float priceInDollarPerGal) {
         //For simplicity's sake, we're going to assume currency based on region that the user is in.
         return 100*(priceInDollarPerGal*0.264172f);
+    }
+
+    public void launchGasPrices(View view){
+        String url = "https://www.gasbuddy.com/";
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
+    }
+
+    public void launchWeather(View view){
+        WebView webView = new WebView(this);
+        setContentView(webView);
+        webView.loadUrl("https://weather.gc.ca/city/pages/on-143_metric_e.html");
     }
 
 

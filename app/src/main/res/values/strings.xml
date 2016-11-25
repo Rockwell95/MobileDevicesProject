@@ -51,4 +51,6 @@
     <string name="direction_title">Get Directions</string>
     <string name="license_class">License Class</string>
     <string name="gender_m_f">Gender (M/F)</string>
+    <string name="gas_prices">Gas Prices...</string>
+    <string name="weather_report">Weather Report</string>
 </resources>

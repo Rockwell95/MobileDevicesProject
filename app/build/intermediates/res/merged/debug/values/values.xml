@@ -859,6 +859,7 @@
     <string name="errorMatchingPassword">Password does not match</string>
     <string name="errorPasswordInvalid">Password must be atlease 8 characters long and must contain atleast 1 lowercase alphanumeric character, 1 uppercase alphanumeric character, and 1 number</string>
     <string name="find_routes">Plan Route</string>
+    <string name="gas_prices">Gas Prices...</string>
     <string name="gender_m_f">Gender (M/F)</string>
     <string name="get_directions">Get Directions</string>
     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
@@ -897,6 +898,7 @@
     <string name="title_activity_maps">Map</string>
     <string name="vehicle_class">Vehicle Class (select one)</string>
     <string name="wallet_buy_button_place_holder">Buy with Google</string>
+    <string name="weather_report">Weather Report</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
