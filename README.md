@@ -57,7 +57,7 @@ In order to use the application, the user musts sign-up with their own credentia
 
 # Initial Design Implementations
 
-<img src="screenshots/iPhone2.png" width="500" height="800">
+<img src="screenshots/iPhone2.png">
 <br>
 
 **Figure 12:** Initial implementation concept prior to core android development. UXDesign lead by: Mohamad Vedut.
