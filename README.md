@@ -11,7 +11,7 @@ In order to use the application, the user musts sign-up with their own credentia
 
 **Walkthrough**:
 
-<img src="screenshots/Screenshot_2016-11-27-15-27-04.png.png" width="500" height="800">
+<img src="screenshots/Screenshot_2016-11-27-15-27-04.png" width="500" height="800">
 **Figure 1:** If the user is not already, registered in the application, they must register their informatio by clicking Sign-Up at the bottom of the page.
 
 <img src="screenshots/Screenshot_2016-11-27-15-27-08.png" width="500" height="800">
