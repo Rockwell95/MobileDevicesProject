@@ -96,22 +96,26 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:inputType="textPersonName"
-            android:ems="10"
+            android:inputType="number"
+            android:ems="9"
             android:layout_below="@+id/editUserBirthdateDay"
             android:layout_alignParentStart="true"
             android:id="@+id/lGrade"
-            android:hint="@string/license_class" />
+            android:hint="@string/license_class"
+            android:maxLength="1"
+            android:maxLines="1" />
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:ems="10"
+            android:ems="9"
             android:layout_below="@+id/editUserBirthdateYear"
-            android:layout_toEndOf="@+id/editUserBirthdateMonth"
+            android:layout_toEndOf="@+id/lGrade"
             android:id="@+id/gender"
-            android:hint="@string/gender_m_f" />
+            android:hint="@string/gender_m_f"
+            android:maxLength="1"
+            android:maxLines="1" />
     </RelativeLayout>
 
     <RelativeLayout

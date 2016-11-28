@@ -23,6 +23,8 @@
     <string name="errorBirthdateDay">Must contain only digits</string>
     <string name="errorBirthdateMonth">Must contain only digits</string>
     <string name="errorBirthdateYear">Invalid birth year</string>
+    <string name="errorLicenseClass">Invalid license class</string>
+    <string name="errorGender">Invalid gender</string>
 
     <!-- LoginActivity strings -->
     <string name="editLoginEmail">Enter your e-mail</string>

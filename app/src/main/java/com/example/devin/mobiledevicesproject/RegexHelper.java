@@ -7,4 +7,6 @@ class RegexHelper {
     final String birthdateMonth = "^[\\d]{1,2}$";
     final String birthdateYear = "^[\\d]{4}$";
     final String birthdate = "^[\\d]{1,2}\\/[\\d]{1,2}\\/[\\d]{4}$";
+    final String licenseClass = "^[1-7]$";
+    final String gender = "^[mM|fF]$";
 }

@@ -20,7 +20,7 @@ class DBHelper extends SQLiteOpenHelper {
     private static final String KEY_USER_FIRSTNAME = "userFirstName";
     private static final String KEY_USER_LASTNAME = "userLastName";
     private static final String KEY_USER_EMAIL = "userEmail";
-    private static final String KEY_USER_PASSWORD = "userPassword"; // TODO: password encryption?
+    private static final String KEY_USER_PASSWORD = "userPassword";
     private static final String KEY_USER_BIRTHDATE = "userBirthdate";
     private static final String KEY_USER_LICENSE = "userLicense";
     private static final String KEY_USER_GENDER = "userGender";
@@ -148,7 +148,6 @@ class DBHelper extends SQLiteOpenHelper {
         String license = user.getLicense();
         String gender = user.getGender();
 
-        // TODO: perform error checking on values
         RegexHelper rh = new RegexHelper(); // new instance of RegexHelper
 
         // perform basic input validation
@@ -177,8 +176,6 @@ class DBHelper extends SQLiteOpenHelper {
 
         results.close();
 
-        // TODO: compare birthdate year against current year somehow
-
         ContentValues values = new ContentValues();
 
         // add all values to a new row
@@ -197,7 +194,6 @@ class DBHelper extends SQLiteOpenHelper {
         return CODE_SUCCESS;
     }
 
-    // TODO: attempt to login with supplied information and return user data if it is correct
     User login(String userEmail, String userPassword) {
         User user = null;
         SQLiteDatabase db = this.getReadableDatabase();

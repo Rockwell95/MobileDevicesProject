@@ -28,7 +28,7 @@ public class SignupActivity extends AppCompatActivity {
 
         // 0 = email, 1 = password, 2 = passwordConfirm,
         // 3 = birthdateDay, 4 = birthdateMonth, 5 = birthdateYear
-        errors = new boolean[6];
+        errors = new boolean[8];
         for (int i = 0; i < errors.length; i++) {
             errors[i] = !errors[i];
         }
@@ -145,6 +145,40 @@ public class SignupActivity extends AppCompatActivity {
                     errors[5] = true;
                 } else {
                     errors[5] = false;
+                }
+            }
+        });
+
+        // validates license class
+        editLicenseClass.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
+            @Override
+            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
+            @Override
+            public void afterTextChanged(Editable editable) {
+                if (!editLicenseClass.getText().toString().matches(rh.licenseClass)) {
+                    editLicenseClass.setError(getString(R.string.errorLicenseClass));
+                    errors[6] = true;
+                } else {
+                    errors[6] = false;
+                }
+            }
+        });
+
+        // validates gender
+        editGender.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
+            @Override
+            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
+            @Override
+            public void afterTextChanged(Editable editable) {
+                if (!editGender.getText().toString().matches(rh.gender)) {
+                    editGender.setError(getString(R.string.errorGender));
+                    errors[7] = true;
+                } else {
+                    errors[7] = false;
                 }
             }
         });

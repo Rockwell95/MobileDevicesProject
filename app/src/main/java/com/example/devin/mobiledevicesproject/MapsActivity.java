@@ -59,31 +59,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
 
-        // obtain the search bar
-        /*PlaceAutocompleteFragment autocompleteFragment = (PlaceAutocompleteFragment)
-                getFragmentManager().findFragmentById(R.id.searchBar);
-
-        autocompleteFragment.setOnPlaceSelectedListener(new PlaceSelectionListener() {
-            @Override
-            public void onPlaceSelected(Place place) {
-                // TODO: on place selected things
-                LatLng latLng = place.getLatLng();
-                String name = place.getName().toString();
-                float zoomLevel = 13.0f;
-
-                if (prevMarker != null)
-                    prevMarker.remove();
-
-                prevMarker = mMap.addMarker(new MarkerOptions().position(latLng).title(name));
-                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng, zoomLevel));
-            }
-
-            @Override
-            public void onError(Status status) {
-                // TODO: handle error
-            }
-        });*/
-
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.floatingActionButton);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override

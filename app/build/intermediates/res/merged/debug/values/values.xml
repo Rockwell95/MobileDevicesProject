@@ -856,6 +856,8 @@
     <string name="errorEmail">Email invalid</string>
     <string name="errorEmailPasswordInvalid">Email or password invalid</string>
     <string name="errorEmailTaken">Email is already in use</string>
+    <string name="errorGender">Invalid gender</string>
+    <string name="errorLicenseClass">Invalid license class</string>
     <string name="errorMatchingPassword">Password does not match</string>
     <string name="errorPasswordInvalid">Password must be atlease 8 characters long and must contain atleast 1 lowercase alphanumeric character, 1 uppercase alphanumeric character, and 1 number</string>
     <string name="find_routes">Plan Route</string>
