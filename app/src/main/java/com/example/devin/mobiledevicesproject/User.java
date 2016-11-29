@@ -1,6 +1,5 @@
 package com.example.devin.mobiledevicesproject;
 
-// TODO: possible hashing of password?
 class User {
     private String firstName;
     private String lastName;
@@ -10,7 +9,6 @@ class User {
     private String license;
     private String gender;
 
-    // TODO: remove if unnecessary
     /*
      * Creates a new User. Takes three Strings: email, password, and birthdate and
      * returns a new User with those attributes.
