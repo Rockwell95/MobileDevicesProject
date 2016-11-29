@@ -16,7 +16,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     protected void login (View view) {
-        // TODO: attempt to login
+        // attempt to login
         DBHelper dbHelper = new DBHelper(this);
 
         // get input fields
@@ -65,7 +65,6 @@ public class LoginActivity extends AppCompatActivity {
     protected void onActivityResult (int requestCode, int resultCode, Intent data) {
         if (resultCode == RESULT_OK) {
             if (requestCode == RESULT_SIGNUP_ACTIVITY) {
-                // TODO: try to login
             }
         }
     }
