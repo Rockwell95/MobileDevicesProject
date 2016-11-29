@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_activity);
 
-        // TODO: get saved user data and automatically login
+        // get saved user data and automatically login
         Intent intent = new Intent(this, LoginActivity.class);
         startActivityForResult(intent, RESULT_LOGIN_ACTIVITY);
     }
