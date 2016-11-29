@@ -74,9 +74,7 @@ public class Directions extends AppCompatActivity implements PriceListener{
             }
 
             @Override
-            public void onError(Status status) {
-                // TODO: handle error
-            }
+            public void onError(Status status) {}
         });
         //=============== END FROM LISTENER ===========================================//
 
@@ -103,9 +101,7 @@ public class Directions extends AppCompatActivity implements PriceListener{
             }
 
             @Override
-            public void onError(Status status) {
-                // TODO: handle error
-            }
+            public void onError(Status status) {}
         });
         //============== END TO LISTENER ==============================================//
 
@@ -133,7 +129,6 @@ public class Directions extends AppCompatActivity implements PriceListener{
                     @Override
                     public void onDirectionSuccess(Direction direction, String rawBody) {
                         if(direction.isOK()){
-                            //TODO: Handle okay directions
                             Log.i("Directions", rawBody);
                             Spinner units = (Spinner)findViewById(R.id.units);
                             String[] unitArray = getResources().getStringArray(R.array.units);
@@ -146,10 +141,6 @@ public class Directions extends AppCompatActivity implements PriceListener{
                             EditText price = (EditText)findViewById(R.id.priceOfGas);
                             float gasPrice = Float.parseFloat(price.getText().toString());
                             sendDataToMap(direction, impUnits, sVClass, gasPrice);
-                        }
-                        else {
-                            //TODO: Handle Invalid directions
-
                         }
                     }
 
