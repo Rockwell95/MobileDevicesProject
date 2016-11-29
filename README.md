@@ -10,13 +10,13 @@ The application also enables the user to look at the 5-day forecast from the web
 In order to use the application, the user musts sign-up with their own credentials and create their own username and password to have access to the application at all times. 
 
 **Instructions**
-1. Run Application
-2. Signup as a user
-3. Login to the application
-4. Hit the blue direction button on top right corner
-5. Enter destination and vehicle being used, then "Get Direction"
-6. View Map information
-7. Select the different routes inside Spinner
+1. Run Application <br>
+2. Signup as a user <br>
+3. Login to the application <br>
+4. Hit the blue direction button on top right corner <br>
+5. Enter destination and vehicle being used, then "Get Direction" <br>
+6. View Map information <br>
+7. Select the different routes inside Spinner <br>
 8. Other functions: -open other 2 buttons for weather forecast or gas information (Webview and URL)
 
 **Walkthrough**:
